@@ -55,7 +55,7 @@ def benchmark(quick=False):
     out=ROOT/('artifacts/quick' if quick else 'results');out.mkdir(parents=True,exist_ok=True)
     (out/'benchmark.json').write_text(json.dumps(report,indent=2)+'\n')
     with (out/'benchmark.csv').open('w',newline='') as f:
-        writer=csv.DictWriter(f,fieldnames=list(rows[0]));writer.writeheader();writer.writerows(rows)
+        writer=csv.DictWriter(f,fieldnames=list(rows[0]),lineterminator="\n");writer.writeheader();writer.writerows(rows)
     if not quick:
         d=demo(history=selected);(out/'demo.json').write_text(json.dumps(d,indent=2)+'\n')
         (ROOT/'models/demo-perceptron.json').write_text(json.dumps(d['results'][-1]['final_model'],indent=2)+'\n')

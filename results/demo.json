@@ -1,0 +1,9328 @@
+{
+  "workload": "delayed",
+  "description": "A random source, seven random distractors, then a target copying the source.",
+  "seed": 101,
+  "count": 6000,
+  "warmup": 512,
+  "results": [
+    {
+      "kind": "taken",
+      "budget_bytes": 256,
+      "history": 8,
+      "storage_bits": 0,
+      "entries": 0,
+      "count": 5488,
+      "misses": 2677,
+      "miss_rate": 48.779154518950435,
+      "bins": [
+        {
+          "step": 767,
+          "count": 256,
+          "misses": 138,
+          "rate": 53.90625
+        },
+        {
+          "step": 1023,
+          "count": 256,
+          "misses": 128,
+          "rate": 50.0
+        },
+        {
+          "step": 1279,
+          "count": 256,
+          "misses": 120,
+          "rate": 46.875
+        },
+        {
+          "step": 1535,
+          "count": 256,
+          "misses": 117,
+          "rate": 45.703125
+        },
+        {
+          "step": 1791,
+          "count": 256,
+          "misses": 131,
+          "rate": 51.171875
+        },
+        {
+          "step": 2047,
+          "count": 256,
+          "misses": 119,
+          "rate": 46.484375
+        },
+        {
+          "step": 2303,
+          "count": 256,
+          "misses": 133,
+          "rate": 51.953125
+        },
+        {
+          "step": 2559,
+          "count": 256,
+          "misses": 110,
+          "rate": 42.96875
+        },
+        {
+          "step": 2815,
+          "count": 256,
+          "misses": 126,
+          "rate": 49.21875
+        },
+        {
+          "step": 3071,
+          "count": 256,
+          "misses": 131,
+          "rate": 51.171875
+        },
+        {
+          "step": 3327,
+          "count": 256,
+          "misses": 121,
+          "rate": 47.265625
+        },
+        {
+          "step": 3583,
+          "count": 256,
+          "misses": 110,
+          "rate": 42.96875
+        },
+        {
+          "step": 3839,
+          "count": 256,
+          "misses": 124,
+          "rate": 48.4375
+        },
+        {
+          "step": 4095,
+          "count": 256,
+          "misses": 144,
+          "rate": 56.25
+        },
+        {
+          "step": 4351,
+          "count": 256,
+          "misses": 94,
+          "rate": 36.71875
+        },
+        {
+          "step": 4607,
+          "count": 256,
+          "misses": 120,
+          "rate": 46.875
+        },
+        {
+          "step": 4863,
+          "count": 256,
+          "misses": 127,
+          "rate": 49.609375
+        },
+        {
+          "step": 5119,
+          "count": 256,
+          "misses": 140,
+          "rate": 54.6875
+        },
+        {
+          "step": 5375,
+          "count": 256,
+          "misses": 123,
+          "rate": 48.046875
+        },
+        {
+          "step": 5631,
+          "count": 256,
+          "misses": 139,
+          "rate": 54.296875
+        },
+        {
+          "step": 5887,
+          "count": 256,
+          "misses": 128,
+          "rate": 50.0
+        },
+        {
+          "step": 5999,
+          "count": 112,
+          "misses": 54,
+          "rate": 48.214285714285715
+        }
+      ],
+      "events": [
+        {
+          "step": 512,
+          "pc": "0x1020",
+          "actual": 0,
+          "prediction": 1,
+          "score": 1,
+          "index": 0,
+          "history": [
+            1,
+            -1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 513,
+          "pc": "0x1000",
+          "actual": 0,
+          "prediction": 1,
+          "score": 1,
+          "index": 0,
+          "history": [
+            -1,
+            1,
+            -1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 514,
+          "pc": "0x1004",
+          "actual": 1,
+          "prediction": 1,
+          "score": 1,
+          "index": 0,
+          "history": [
+            -1,
+            -1,
+            1,
+            -1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 515,
+          "pc": "0x1008",
+          "actual": 0,
+          "prediction": 1,
+          "score": 1,
+          "index": 0,
+          "history": [
+            1,
+            -1,
+            -1,
+            1,
+            -1,
+            1,
+            1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 516,
+          "pc": "0x100c",
+          "actual": 0,
+          "prediction": 1,
+          "score": 1,
+          "index": 0,
+          "history": [
+            -1,
+            1,
+            -1,
+            -1,
+            1,
+            -1,
+            1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 517,
+          "pc": "0x1010",
+          "actual": 1,
+          "prediction": 1,
+          "score": 1,
+          "index": 0,
+          "history": [
+            -1,
+            -1,
+            1,
+            -1,
+            -1,
+            1,
+            -1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 518,
+          "pc": "0x1014",
+          "actual": 1,
+          "prediction": 1,
+          "score": 1,
+          "index": 0,
+          "history": [
+            1,
+            -1,
+            -1,
+            1,
+            -1,
+            -1,
+            1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 519,
+          "pc": "0x1018",
+          "actual": 0,
+          "prediction": 1,
+          "score": 1,
+          "index": 0,
+          "history": [
+            1,
+            1,
+            -1,
+            -1,
+            1,
+            -1,
+            -1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 520,
+          "pc": "0x101c",
+          "actual": 0,
+          "prediction": 1,
+          "score": 1,
+          "index": 0,
+          "history": [
+            -1,
+            1,
+            1,
+            -1,
+            -1,
+            1,
+            -1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 521,
+          "pc": "0x1020",
+          "actual": 0,
+          "prediction": 1,
+          "score": 1,
+          "index": 0,
+          "history": [
+            -1,
+            -1,
+            1,
+            1,
+            -1,
+            -1,
+            1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 522,
+          "pc": "0x1000",
+          "actual": 1,
+          "prediction": 1,
+          "score": 1,
+          "index": 0,
+          "history": [
+            -1,
+            -1,
+            -1,
+            1,
+            1,
+            -1,
+            -1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 523,
+          "pc": "0x1004",
+          "actual": 0,
+          "prediction": 1,
+          "score": 1,
+          "index": 0,
+          "history": [
+            1,
+            -1,
+            -1,
+            -1,
+            1,
+            1,
+            -1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 524,
+          "pc": "0x1008",
+          "actual": 0,
+          "prediction": 1,
+          "score": 1,
+          "index": 0,
+          "history": [
+            -1,
+            1,
+            -1,
+            -1,
+            -1,
+            1,
+            1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 525,
+          "pc": "0x100c",
+          "actual": 1,
+          "prediction": 1,
+          "score": 1,
+          "index": 0,
+          "history": [
+            -1,
+            -1,
+            1,
+            -1,
+            -1,
+            -1,
+            1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 526,
+          "pc": "0x1010",
+          "actual": 0,
+          "prediction": 1,
+          "score": 1,
+          "index": 0,
+          "history": [
+            1,
+            -1,
+            -1,
+            1,
+            -1,
+            -1,
+            -1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 527,
+          "pc": "0x1014",
+          "actual": 1,
+          "prediction": 1,
+          "score": 1,
+          "index": 0,
+          "history": [
+            -1,
+            1,
+            -1,
+            -1,
+            1,
+            -1,
+            -1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 528,
+          "pc": "0x1018",
+          "actual": 1,
+          "prediction": 1,
+          "score": 1,
+          "index": 0,
+          "history": [
+            1,
+            -1,
+            1,
+            -1,
+            -1,
+            1,
+            -1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 529,
+          "pc": "0x101c",
+          "actual": 0,
+          "prediction": 1,
+          "score": 1,
+          "index": 0,
+          "history": [
+            1,
+            1,
+            -1,
+            1,
+            -1,
+            -1,
+            1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 530,
+          "pc": "0x1020",
+          "actual": 1,
+          "prediction": 1,
+          "score": 1,
+          "index": 0,
+          "history": [
+            -1,
+            1,
+            1,
+            -1,
+            1,
+            -1,
+            -1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 531,
+          "pc": "0x1000",
+          "actual": 1,
+          "prediction": 1,
+          "score": 1,
+          "index": 0,
+          "history": [
+            1,
+            -1,
+            1,
+            1,
+            -1,
+            1,
+            -1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 532,
+          "pc": "0x1004",
+          "actual": 0,
+          "prediction": 1,
+          "score": 1,
+          "index": 0,
+          "history": [
+            1,
+            1,
+            -1,
+            1,
+            1,
+            -1,
+            1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 533,
+          "pc": "0x1008",
+          "actual": 0,
+          "prediction": 1,
+          "score": 1,
+          "index": 0,
+          "history": [
+            -1,
+            1,
+            1,
+            -1,
+            1,
+            1,
+            -1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 534,
+          "pc": "0x100c",
+          "actual": 0,
+          "prediction": 1,
+          "score": 1,
+          "index": 0,
+          "history": [
+            -1,
+            -1,
+            1,
+            1,
+            -1,
+            1,
+            1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 535,
+          "pc": "0x1010",
+          "actual": 0,
+          "prediction": 1,
+          "score": 1,
+          "index": 0,
+          "history": [
+            -1,
+            -1,
+            -1,
+            1,
+            1,
+            -1,
+            1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 536,
+          "pc": "0x1014",
+          "actual": 0,
+          "prediction": 1,
+          "score": 1,
+          "index": 0,
+          "history": [
+            -1,
+            -1,
+            -1,
+            -1,
+            1,
+            1,
+            -1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 537,
+          "pc": "0x1018",
+          "actual": 1,
+          "prediction": 1,
+          "score": 1,
+          "index": 0,
+          "history": [
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            1,
+            1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 538,
+          "pc": "0x101c",
+          "actual": 1,
+          "prediction": 1,
+          "score": 1,
+          "index": 0,
+          "history": [
+            1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 539,
+          "pc": "0x1020",
+          "actual": 1,
+          "prediction": 1,
+          "score": 1,
+          "index": 0,
+          "history": [
+            1,
+            1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 540,
+          "pc": "0x1000",
+          "actual": 0,
+          "prediction": 1,
+          "score": 1,
+          "index": 0,
+          "history": [
+            1,
+            1,
+            1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 541,
+          "pc": "0x1004",
+          "actual": 1,
+          "prediction": 1,
+          "score": 1,
+          "index": 0,
+          "history": [
+            -1,
+            1,
+            1,
+            1,
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 542,
+          "pc": "0x1008",
+          "actual": 1,
+          "prediction": 1,
+          "score": 1,
+          "index": 0,
+          "history": [
+            1,
+            -1,
+            1,
+            1,
+            1,
+            -1,
+            -1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 543,
+          "pc": "0x100c",
+          "actual": 0,
+          "prediction": 1,
+          "score": 1,
+          "index": 0,
+          "history": [
+            1,
+            1,
+            -1,
+            1,
+            1,
+            1,
+            -1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 544,
+          "pc": "0x1010",
+          "actual": 1,
+          "prediction": 1,
+          "score": 1,
+          "index": 0,
+          "history": [
+            -1,
+            1,
+            1,
+            -1,
+            1,
+            1,
+            1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 545,
+          "pc": "0x1014",
+          "actual": 1,
+          "prediction": 1,
+          "score": 1,
+          "index": 0,
+          "history": [
+            1,
+            -1,
+            1,
+            1,
+            -1,
+            1,
+            1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 546,
+          "pc": "0x1018",
+          "actual": 1,
+          "prediction": 1,
+          "score": 1,
+          "index": 0,
+          "history": [
+            1,
+            1,
+            -1,
+            1,
+            1,
+            -1,
+            1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 547,
+          "pc": "0x101c",
+          "actual": 1,
+          "prediction": 1,
+          "score": 1,
+          "index": 0,
+          "history": [
+            1,
+            1,
+            1,
+            -1,
+            1,
+            1,
+            -1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 548,
+          "pc": "0x1020",
+          "actual": 0,
+          "prediction": 1,
+          "score": 1,
+          "index": 0,
+          "history": [
+            1,
+            1,
+            1,
+            1,
+            -1,
+            1,
+            1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 549,
+          "pc": "0x1000",
+          "actual": 1,
+          "prediction": 1,
+          "score": 1,
+          "index": 0,
+          "history": [
+            -1,
+            1,
+            1,
+            1,
+            1,
+            -1,
+            1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 550,
+          "pc": "0x1004",
+          "actual": 0,
+          "prediction": 1,
+          "score": 1,
+          "index": 0,
+          "history": [
+            1,
+            -1,
+            1,
+            1,
+            1,
+            1,
+            -1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 551,
+          "pc": "0x1008",
+          "actual": 0,
+          "prediction": 1,
+          "score": 1,
+          "index": 0,
+          "history": [
+            -1,
+            1,
+            -1,
+            1,
+            1,
+            1,
+            1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 552,
+          "pc": "0x100c",
+          "actual": 1,
+          "prediction": 1,
+          "score": 1,
+          "index": 0,
+          "history": [
+            -1,
+            -1,
+            1,
+            -1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 553,
+          "pc": "0x1010",
+          "actual": 1,
+          "prediction": 1,
+          "score": 1,
+          "index": 0,
+          "history": [
+            1,
+            -1,
+            -1,
+            1,
+            -1,
+            1,
+            1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 554,
+          "pc": "0x1014",
+          "actual": 1,
+          "prediction": 1,
+          "score": 1,
+          "index": 0,
+          "history": [
+            1,
+            1,
+            -1,
+            -1,
+            1,
+            -1,
+            1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 555,
+          "pc": "0x1018",
+          "actual": 0,
+          "prediction": 1,
+          "score": 1,
+          "index": 0,
+          "history": [
+            1,
+            1,
+            1,
+            -1,
+            -1,
+            1,
+            -1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 556,
+          "pc": "0x101c",
+          "actual": 1,
+          "prediction": 1,
+          "score": 1,
+          "index": 0,
+          "history": [
+            -1,
+            1,
+            1,
+            1,
+            -1,
+            -1,
+            1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 557,
+          "pc": "0x1020",
+          "actual": 1,
+          "prediction": 1,
+          "score": 1,
+          "index": 0,
+          "history": [
+            1,
+            -1,
+            1,
+            1,
+            1,
+            -1,
+            -1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 558,
+          "pc": "0x1000",
+          "actual": 0,
+          "prediction": 1,
+          "score": 1,
+          "index": 0,
+          "history": [
+            1,
+            1,
+            -1,
+            1,
+            1,
+            1,
+            -1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 559,
+          "pc": "0x1004",
+          "actual": 0,
+          "prediction": 1,
+          "score": 1,
+          "index": 0,
+          "history": [
+            -1,
+            1,
+            1,
+            -1,
+            1,
+            1,
+            1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 560,
+          "pc": "0x1008",
+          "actual": 0,
+          "prediction": 1,
+          "score": 1,
+          "index": 0,
+          "history": [
+            -1,
+            -1,
+            1,
+            1,
+            -1,
+            1,
+            1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 561,
+          "pc": "0x100c",
+          "actual": 0,
+          "prediction": 1,
+          "score": 1,
+          "index": 0,
+          "history": [
+            -1,
+            -1,
+            -1,
+            1,
+            1,
+            -1,
+            1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 562,
+          "pc": "0x1010",
+          "actual": 1,
+          "prediction": 1,
+          "score": 1,
+          "index": 0,
+          "history": [
+            -1,
+            -1,
+            -1,
+            -1,
+            1,
+            1,
+            -1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 563,
+          "pc": "0x1014",
+          "actual": 0,
+          "prediction": 1,
+          "score": 1,
+          "index": 0,
+          "history": [
+            1,
+            -1,
+            -1,
+            -1,
+            -1,
+            1,
+            1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 564,
+          "pc": "0x1018",
+          "actual": 0,
+          "prediction": 1,
+          "score": 1,
+          "index": 0,
+          "history": [
+            -1,
+            1,
+            -1,
+            -1,
+            -1,
+            -1,
+            1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 565,
+          "pc": "0x101c",
+          "actual": 0,
+          "prediction": 1,
+          "score": 1,
+          "index": 0,
+          "history": [
+            -1,
+            -1,
+            1,
+            -1,
+            -1,
+            -1,
+            -1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 566,
+          "pc": "0x1020",
+          "actual": 0,
+          "prediction": 1,
+          "score": 1,
+          "index": 0,
+          "history": [
+            -1,
+            -1,
+            -1,
+            1,
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 567,
+          "pc": "0x1000",
+          "actual": 0,
+          "prediction": 1,
+          "score": 1,
+          "index": 0,
+          "history": [
+            -1,
+            -1,
+            -1,
+            -1,
+            1,
+            -1,
+            -1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 568,
+          "pc": "0x1004",
+          "actual": 1,
+          "prediction": 1,
+          "score": 1,
+          "index": 0,
+          "history": [
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            1,
+            -1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 569,
+          "pc": "0x1008",
+          "actual": 0,
+          "prediction": 1,
+          "score": 1,
+          "index": 0,
+          "history": [
+            1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 570,
+          "pc": "0x100c",
+          "actual": 1,
+          "prediction": 1,
+          "score": 1,
+          "index": 0,
+          "history": [
+            -1,
+            1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 571,
+          "pc": "0x1010",
+          "actual": 1,
+          "prediction": 1,
+          "score": 1,
+          "index": 0,
+          "history": [
+            1,
+            -1,
+            1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 572,
+          "pc": "0x1014",
+          "actual": 0,
+          "prediction": 1,
+          "score": 1,
+          "index": 0,
+          "history": [
+            1,
+            1,
+            -1,
+            1,
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 573,
+          "pc": "0x1018",
+          "actual": 0,
+          "prediction": 1,
+          "score": 1,
+          "index": 0,
+          "history": [
+            -1,
+            1,
+            1,
+            -1,
+            1,
+            -1,
+            -1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 574,
+          "pc": "0x101c",
+          "actual": 1,
+          "prediction": 1,
+          "score": 1,
+          "index": 0,
+          "history": [
+            -1,
+            -1,
+            1,
+            1,
+            -1,
+            1,
+            -1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 575,
+          "pc": "0x1020",
+          "actual": 0,
+          "prediction": 1,
+          "score": 1,
+          "index": 0,
+          "history": [
+            1,
+            -1,
+            -1,
+            1,
+            1,
+            -1,
+            1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 576,
+          "pc": "0x1000",
+          "actual": 1,
+          "prediction": 1,
+          "score": 1,
+          "index": 0,
+          "history": [
+            -1,
+            1,
+            -1,
+            -1,
+            1,
+            1,
+            -1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 577,
+          "pc": "0x1004",
+          "actual": 0,
+          "prediction": 1,
+          "score": 1,
+          "index": 0,
+          "history": [
+            1,
+            -1,
+            1,
+            -1,
+            -1,
+            1,
+            1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 578,
+          "pc": "0x1008",
+          "actual": 0,
+          "prediction": 1,
+          "score": 1,
+          "index": 0,
+          "history": [
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            -1,
+            1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 579,
+          "pc": "0x100c",
+          "actual": 0,
+          "prediction": 1,
+          "score": 1,
+          "index": 0,
+          "history": [
+            -1,
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            -1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 580,
+          "pc": "0x1010",
+          "actual": 1,
+          "prediction": 1,
+          "score": 1,
+          "index": 0,
+          "history": [
+            -1,
+            -1,
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 581,
+          "pc": "0x1014",
+          "actual": 0,
+          "prediction": 1,
+          "score": 1,
+          "index": 0,
+          "history": [
+            1,
+            -1,
+            -1,
+            -1,
+            1,
+            -1,
+            1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 582,
+          "pc": "0x1018",
+          "actual": 0,
+          "prediction": 1,
+          "score": 1,
+          "index": 0,
+          "history": [
+            -1,
+            1,
+            -1,
+            -1,
+            -1,
+            1,
+            -1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 583,
+          "pc": "0x101c",
+          "actual": 1,
+          "prediction": 1,
+          "score": 1,
+          "index": 0,
+          "history": [
+            -1,
+            -1,
+            1,
+            -1,
+            -1,
+            -1,
+            1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 584,
+          "pc": "0x1020",
+          "actual": 1,
+          "prediction": 1,
+          "score": 1,
+          "index": 0,
+          "history": [
+            1,
+            -1,
+            -1,
+            1,
+            -1,
+            -1,
+            -1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 585,
+          "pc": "0x1000",
+          "actual": 0,
+          "prediction": 1,
+          "score": 1,
+          "index": 0,
+          "history": [
+            1,
+            1,
+            -1,
+            -1,
+            1,
+            -1,
+            -1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 586,
+          "pc": "0x1004",
+          "actual": 1,
+          "prediction": 1,
+          "score": 1,
+          "index": 0,
+          "history": [
+            -1,
+            1,
+            1,
+            -1,
+            -1,
+            1,
+            -1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 587,
+          "pc": "0x1008",
+          "actual": 0,
+          "prediction": 1,
+          "score": 1,
+          "index": 0,
+          "history": [
+            1,
+            -1,
+            1,
+            1,
+            -1,
+            -1,
+            1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 588,
+          "pc": "0x100c",
+          "actual": 0,
+          "prediction": 1,
+          "score": 1,
+          "index": 0,
+          "history": [
+            -1,
+            1,
+            -1,
+            1,
+            1,
+            -1,
+            -1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 589,
+          "pc": "0x1010",
+          "actual": 1,
+          "prediction": 1,
+          "score": 1,
+          "index": 0,
+          "history": [
+            -1,
+            -1,
+            1,
+            -1,
+            1,
+            1,
+            -1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 590,
+          "pc": "0x1014",
+          "actual": 0,
+          "prediction": 1,
+          "score": 1,
+          "index": 0,
+          "history": [
+            1,
+            -1,
+            -1,
+            1,
+            -1,
+            1,
+            1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 591,
+          "pc": "0x1018",
+          "actual": 0,
+          "prediction": 1,
+          "score": 1,
+          "index": 0,
+          "history": [
+            -1,
+            1,
+            -1,
+            -1,
+            1,
+            -1,
+            1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 592,
+          "pc": "0x101c",
+          "actual": 0,
+          "prediction": 1,
+          "score": 1,
+          "index": 0,
+          "history": [
+            -1,
+            -1,
+            1,
+            -1,
+            -1,
+            1,
+            -1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 593,
+          "pc": "0x1020",
+          "actual": 0,
+          "prediction": 1,
+          "score": 1,
+          "index": 0,
+          "history": [
+            -1,
+            -1,
+            -1,
+            1,
+            -1,
+            -1,
+            1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 594,
+          "pc": "0x1000",
+          "actual": 0,
+          "prediction": 1,
+          "score": 1,
+          "index": 0,
+          "history": [
+            -1,
+            -1,
+            -1,
+            -1,
+            1,
+            -1,
+            -1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 595,
+          "pc": "0x1004",
+          "actual": 1,
+          "prediction": 1,
+          "score": 1,
+          "index": 0,
+          "history": [
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            1,
+            -1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 596,
+          "pc": "0x1008",
+          "actual": 0,
+          "prediction": 1,
+          "score": 1,
+          "index": 0,
+          "history": [
+            1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 597,
+          "pc": "0x100c",
+          "actual": 1,
+          "prediction": 1,
+          "score": 1,
+          "index": 0,
+          "history": [
+            -1,
+            1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 598,
+          "pc": "0x1010",
+          "actual": 0,
+          "prediction": 1,
+          "score": 1,
+          "index": 0,
+          "history": [
+            1,
+            -1,
+            1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 599,
+          "pc": "0x1014",
+          "actual": 1,
+          "prediction": 1,
+          "score": 1,
+          "index": 0,
+          "history": [
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 600,
+          "pc": "0x1018",
+          "actual": 0,
+          "prediction": 1,
+          "score": 1,
+          "index": 0,
+          "history": [
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            -1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 601,
+          "pc": "0x101c",
+          "actual": 1,
+          "prediction": 1,
+          "score": 1,
+          "index": 0,
+          "history": [
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 602,
+          "pc": "0x1020",
+          "actual": 0,
+          "prediction": 1,
+          "score": 1,
+          "index": 0,
+          "history": [
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 603,
+          "pc": "0x1000",
+          "actual": 1,
+          "prediction": 1,
+          "score": 1,
+          "index": 0,
+          "history": [
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 604,
+          "pc": "0x1004",
+          "actual": 0,
+          "prediction": 1,
+          "score": 1,
+          "index": 0,
+          "history": [
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 605,
+          "pc": "0x1008",
+          "actual": 0,
+          "prediction": 1,
+          "score": 1,
+          "index": 0,
+          "history": [
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 606,
+          "pc": "0x100c",
+          "actual": 0,
+          "prediction": 1,
+          "score": 1,
+          "index": 0,
+          "history": [
+            -1,
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 607,
+          "pc": "0x1010",
+          "actual": 1,
+          "prediction": 1,
+          "score": 1,
+          "index": 0,
+          "history": [
+            -1,
+            -1,
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            1
+          ],
+          "weights": []
+        }
+      ],
+      "per_pc": {
+        "0x1020": {
+          "count": 610,
+          "misses": 292
+        },
+        "0x1000": {
+          "count": 610,
+          "misses": 292
+        },
+        "0x1004": {
+          "count": 610,
+          "misses": 303
+        },
+        "0x1008": {
+          "count": 610,
+          "misses": 298
+        },
+        "0x100c": {
+          "count": 610,
+          "misses": 320
+        },
+        "0x1010": {
+          "count": 610,
+          "misses": 316
+        },
+        "0x1014": {
+          "count": 610,
+          "misses": 283
+        },
+        "0x1018": {
+          "count": 609,
+          "misses": 275
+        },
+        "0x101c": {
+          "count": 609,
+          "misses": 298
+        }
+      }
+    },
+    {
+      "kind": "bimodal",
+      "budget_bytes": 256,
+      "history": 8,
+      "storage_bits": 2048,
+      "entries": 1024,
+      "count": 5488,
+      "misses": 2643,
+      "miss_rate": 48.15962099125365,
+      "bins": [
+        {
+          "step": 767,
+          "count": 256,
+          "misses": 130,
+          "rate": 50.78125
+        },
+        {
+          "step": 1023,
+          "count": 256,
+          "misses": 128,
+          "rate": 50.0
+        },
+        {
+          "step": 1279,
+          "count": 256,
+          "misses": 125,
+          "rate": 48.828125
+        },
+        {
+          "step": 1535,
+          "count": 256,
+          "misses": 116,
+          "rate": 45.3125
+        },
+        {
+          "step": 1791,
+          "count": 256,
+          "misses": 131,
+          "rate": 51.171875
+        },
+        {
+          "step": 2047,
+          "count": 256,
+          "misses": 122,
+          "rate": 47.65625
+        },
+        {
+          "step": 2303,
+          "count": 256,
+          "misses": 139,
+          "rate": 54.296875
+        },
+        {
+          "step": 2559,
+          "count": 256,
+          "misses": 118,
+          "rate": 46.09375
+        },
+        {
+          "step": 2815,
+          "count": 256,
+          "misses": 119,
+          "rate": 46.484375
+        },
+        {
+          "step": 3071,
+          "count": 256,
+          "misses": 131,
+          "rate": 51.171875
+        },
+        {
+          "step": 3327,
+          "count": 256,
+          "misses": 135,
+          "rate": 52.734375
+        },
+        {
+          "step": 3583,
+          "count": 256,
+          "misses": 111,
+          "rate": 43.359375
+        },
+        {
+          "step": 3839,
+          "count": 256,
+          "misses": 119,
+          "rate": 46.484375
+        },
+        {
+          "step": 4095,
+          "count": 256,
+          "misses": 132,
+          "rate": 51.5625
+        },
+        {
+          "step": 4351,
+          "count": 256,
+          "misses": 107,
+          "rate": 41.796875
+        },
+        {
+          "step": 4607,
+          "count": 256,
+          "misses": 123,
+          "rate": 48.046875
+        },
+        {
+          "step": 4863,
+          "count": 256,
+          "misses": 109,
+          "rate": 42.578125
+        },
+        {
+          "step": 5119,
+          "count": 256,
+          "misses": 127,
+          "rate": 49.609375
+        },
+        {
+          "step": 5375,
+          "count": 256,
+          "misses": 131,
+          "rate": 51.171875
+        },
+        {
+          "step": 5631,
+          "count": 256,
+          "misses": 115,
+          "rate": 44.921875
+        },
+        {
+          "step": 5887,
+          "count": 256,
+          "misses": 126,
+          "rate": 49.21875
+        },
+        {
+          "step": 5999,
+          "count": 112,
+          "misses": 49,
+          "rate": 43.75
+        }
+      ],
+      "events": [
+        {
+          "step": 512,
+          "pc": "0x1020",
+          "actual": 0,
+          "prediction": 0,
+          "score": -1.5,
+          "index": 8,
+          "history": [
+            1,
+            -1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 513,
+          "pc": "0x1000",
+          "actual": 0,
+          "prediction": 0,
+          "score": -1.5,
+          "index": 0,
+          "history": [
+            -1,
+            1,
+            -1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 514,
+          "pc": "0x1004",
+          "actual": 1,
+          "prediction": 1,
+          "score": 1.5,
+          "index": 1,
+          "history": [
+            -1,
+            -1,
+            1,
+            -1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 515,
+          "pc": "0x1008",
+          "actual": 0,
+          "prediction": 1,
+          "score": 1.5,
+          "index": 2,
+          "history": [
+            1,
+            -1,
+            -1,
+            1,
+            -1,
+            1,
+            1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 516,
+          "pc": "0x100c",
+          "actual": 0,
+          "prediction": 1,
+          "score": 1.5,
+          "index": 3,
+          "history": [
+            -1,
+            1,
+            -1,
+            -1,
+            1,
+            -1,
+            1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 517,
+          "pc": "0x1010",
+          "actual": 1,
+          "prediction": 1,
+          "score": 0.5,
+          "index": 4,
+          "history": [
+            -1,
+            -1,
+            1,
+            -1,
+            -1,
+            1,
+            -1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 518,
+          "pc": "0x1014",
+          "actual": 1,
+          "prediction": 1,
+          "score": 1.5,
+          "index": 5,
+          "history": [
+            1,
+            -1,
+            -1,
+            1,
+            -1,
+            -1,
+            1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 519,
+          "pc": "0x1018",
+          "actual": 0,
+          "prediction": 0,
+          "score": -1.5,
+          "index": 6,
+          "history": [
+            1,
+            1,
+            -1,
+            -1,
+            1,
+            -1,
+            -1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 520,
+          "pc": "0x101c",
+          "actual": 0,
+          "prediction": 0,
+          "score": -0.5,
+          "index": 7,
+          "history": [
+            -1,
+            1,
+            1,
+            -1,
+            -1,
+            1,
+            -1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 521,
+          "pc": "0x1020",
+          "actual": 0,
+          "prediction": 0,
+          "score": -1.5,
+          "index": 8,
+          "history": [
+            -1,
+            -1,
+            1,
+            1,
+            -1,
+            -1,
+            1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 522,
+          "pc": "0x1000",
+          "actual": 1,
+          "prediction": 0,
+          "score": -1.5,
+          "index": 0,
+          "history": [
+            -1,
+            -1,
+            -1,
+            1,
+            1,
+            -1,
+            -1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 523,
+          "pc": "0x1004",
+          "actual": 0,
+          "prediction": 1,
+          "score": 1.5,
+          "index": 1,
+          "history": [
+            1,
+            -1,
+            -1,
+            -1,
+            1,
+            1,
+            -1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 524,
+          "pc": "0x1008",
+          "actual": 0,
+          "prediction": 1,
+          "score": 0.5,
+          "index": 2,
+          "history": [
+            -1,
+            1,
+            -1,
+            -1,
+            -1,
+            1,
+            1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 525,
+          "pc": "0x100c",
+          "actual": 1,
+          "prediction": 1,
+          "score": 0.5,
+          "index": 3,
+          "history": [
+            -1,
+            -1,
+            1,
+            -1,
+            -1,
+            -1,
+            1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 526,
+          "pc": "0x1010",
+          "actual": 0,
+          "prediction": 1,
+          "score": 1.5,
+          "index": 4,
+          "history": [
+            1,
+            -1,
+            -1,
+            1,
+            -1,
+            -1,
+            -1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 527,
+          "pc": "0x1014",
+          "actual": 1,
+          "prediction": 1,
+          "score": 1.5,
+          "index": 5,
+          "history": [
+            -1,
+            1,
+            -1,
+            -1,
+            1,
+            -1,
+            -1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 528,
+          "pc": "0x1018",
+          "actual": 1,
+          "prediction": 0,
+          "score": -1.5,
+          "index": 6,
+          "history": [
+            1,
+            -1,
+            1,
+            -1,
+            -1,
+            1,
+            -1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 529,
+          "pc": "0x101c",
+          "actual": 0,
+          "prediction": 0,
+          "score": -1.5,
+          "index": 7,
+          "history": [
+            1,
+            1,
+            -1,
+            1,
+            -1,
+            -1,
+            1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 530,
+          "pc": "0x1020",
+          "actual": 1,
+          "prediction": 0,
+          "score": -1.5,
+          "index": 8,
+          "history": [
+            -1,
+            1,
+            1,
+            -1,
+            1,
+            -1,
+            -1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 531,
+          "pc": "0x1000",
+          "actual": 1,
+          "prediction": 0,
+          "score": -0.5,
+          "index": 0,
+          "history": [
+            1,
+            -1,
+            1,
+            1,
+            -1,
+            1,
+            -1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 532,
+          "pc": "0x1004",
+          "actual": 0,
+          "prediction": 1,
+          "score": 0.5,
+          "index": 1,
+          "history": [
+            1,
+            1,
+            -1,
+            1,
+            1,
+            -1,
+            1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 533,
+          "pc": "0x1008",
+          "actual": 0,
+          "prediction": 0,
+          "score": -0.5,
+          "index": 2,
+          "history": [
+            -1,
+            1,
+            1,
+            -1,
+            1,
+            1,
+            -1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 534,
+          "pc": "0x100c",
+          "actual": 0,
+          "prediction": 1,
+          "score": 1.5,
+          "index": 3,
+          "history": [
+            -1,
+            -1,
+            1,
+            1,
+            -1,
+            1,
+            1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 535,
+          "pc": "0x1010",
+          "actual": 0,
+          "prediction": 1,
+          "score": 0.5,
+          "index": 4,
+          "history": [
+            -1,
+            -1,
+            -1,
+            1,
+            1,
+            -1,
+            1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 536,
+          "pc": "0x1014",
+          "actual": 0,
+          "prediction": 1,
+          "score": 1.5,
+          "index": 5,
+          "history": [
+            -1,
+            -1,
+            -1,
+            -1,
+            1,
+            1,
+            -1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 537,
+          "pc": "0x1018",
+          "actual": 1,
+          "prediction": 0,
+          "score": -0.5,
+          "index": 6,
+          "history": [
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            1,
+            1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 538,
+          "pc": "0x101c",
+          "actual": 1,
+          "prediction": 0,
+          "score": -1.5,
+          "index": 7,
+          "history": [
+            1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 539,
+          "pc": "0x1020",
+          "actual": 1,
+          "prediction": 0,
+          "score": -0.5,
+          "index": 8,
+          "history": [
+            1,
+            1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 540,
+          "pc": "0x1000",
+          "actual": 0,
+          "prediction": 1,
+          "score": 0.5,
+          "index": 0,
+          "history": [
+            1,
+            1,
+            1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 541,
+          "pc": "0x1004",
+          "actual": 1,
+          "prediction": 0,
+          "score": -0.5,
+          "index": 1,
+          "history": [
+            -1,
+            1,
+            1,
+            1,
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 542,
+          "pc": "0x1008",
+          "actual": 1,
+          "prediction": 0,
+          "score": -1.5,
+          "index": 2,
+          "history": [
+            1,
+            -1,
+            1,
+            1,
+            1,
+            -1,
+            -1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 543,
+          "pc": "0x100c",
+          "actual": 0,
+          "prediction": 1,
+          "score": 0.5,
+          "index": 3,
+          "history": [
+            1,
+            1,
+            -1,
+            1,
+            1,
+            1,
+            -1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 544,
+          "pc": "0x1010",
+          "actual": 1,
+          "prediction": 0,
+          "score": -0.5,
+          "index": 4,
+          "history": [
+            -1,
+            1,
+            1,
+            -1,
+            1,
+            1,
+            1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 545,
+          "pc": "0x1014",
+          "actual": 1,
+          "prediction": 1,
+          "score": 0.5,
+          "index": 5,
+          "history": [
+            1,
+            -1,
+            1,
+            1,
+            -1,
+            1,
+            1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 546,
+          "pc": "0x1018",
+          "actual": 1,
+          "prediction": 1,
+          "score": 0.5,
+          "index": 6,
+          "history": [
+            1,
+            1,
+            -1,
+            1,
+            1,
+            -1,
+            1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 547,
+          "pc": "0x101c",
+          "actual": 1,
+          "prediction": 0,
+          "score": -0.5,
+          "index": 7,
+          "history": [
+            1,
+            1,
+            1,
+            -1,
+            1,
+            1,
+            -1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 548,
+          "pc": "0x1020",
+          "actual": 0,
+          "prediction": 1,
+          "score": 0.5,
+          "index": 8,
+          "history": [
+            1,
+            1,
+            1,
+            1,
+            -1,
+            1,
+            1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 549,
+          "pc": "0x1000",
+          "actual": 1,
+          "prediction": 0,
+          "score": -0.5,
+          "index": 0,
+          "history": [
+            -1,
+            1,
+            1,
+            1,
+            1,
+            -1,
+            1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 550,
+          "pc": "0x1004",
+          "actual": 0,
+          "prediction": 1,
+          "score": 0.5,
+          "index": 1,
+          "history": [
+            1,
+            -1,
+            1,
+            1,
+            1,
+            1,
+            -1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 551,
+          "pc": "0x1008",
+          "actual": 0,
+          "prediction": 0,
+          "score": -0.5,
+          "index": 2,
+          "history": [
+            -1,
+            1,
+            -1,
+            1,
+            1,
+            1,
+            1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 552,
+          "pc": "0x100c",
+          "actual": 1,
+          "prediction": 0,
+          "score": -0.5,
+          "index": 3,
+          "history": [
+            -1,
+            -1,
+            1,
+            -1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 553,
+          "pc": "0x1010",
+          "actual": 1,
+          "prediction": 1,
+          "score": 0.5,
+          "index": 4,
+          "history": [
+            1,
+            -1,
+            -1,
+            1,
+            -1,
+            1,
+            1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 554,
+          "pc": "0x1014",
+          "actual": 1,
+          "prediction": 1,
+          "score": 1.5,
+          "index": 5,
+          "history": [
+            1,
+            1,
+            -1,
+            -1,
+            1,
+            -1,
+            1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 555,
+          "pc": "0x1018",
+          "actual": 0,
+          "prediction": 1,
+          "score": 1.5,
+          "index": 6,
+          "history": [
+            1,
+            1,
+            1,
+            -1,
+            -1,
+            1,
+            -1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 556,
+          "pc": "0x101c",
+          "actual": 1,
+          "prediction": 1,
+          "score": 0.5,
+          "index": 7,
+          "history": [
+            -1,
+            1,
+            1,
+            1,
+            -1,
+            -1,
+            1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 557,
+          "pc": "0x1020",
+          "actual": 1,
+          "prediction": 0,
+          "score": -0.5,
+          "index": 8,
+          "history": [
+            1,
+            -1,
+            1,
+            1,
+            1,
+            -1,
+            -1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 558,
+          "pc": "0x1000",
+          "actual": 0,
+          "prediction": 1,
+          "score": 0.5,
+          "index": 0,
+          "history": [
+            1,
+            1,
+            -1,
+            1,
+            1,
+            1,
+            -1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 559,
+          "pc": "0x1004",
+          "actual": 0,
+          "prediction": 0,
+          "score": -0.5,
+          "index": 1,
+          "history": [
+            -1,
+            1,
+            1,
+            -1,
+            1,
+            1,
+            1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 560,
+          "pc": "0x1008",
+          "actual": 0,
+          "prediction": 0,
+          "score": -1.5,
+          "index": 2,
+          "history": [
+            -1,
+            -1,
+            1,
+            1,
+            -1,
+            1,
+            1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 561,
+          "pc": "0x100c",
+          "actual": 0,
+          "prediction": 1,
+          "score": 0.5,
+          "index": 3,
+          "history": [
+            -1,
+            -1,
+            -1,
+            1,
+            1,
+            -1,
+            1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 562,
+          "pc": "0x1010",
+          "actual": 1,
+          "prediction": 1,
+          "score": 1.5,
+          "index": 4,
+          "history": [
+            -1,
+            -1,
+            -1,
+            -1,
+            1,
+            1,
+            -1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 563,
+          "pc": "0x1014",
+          "actual": 0,
+          "prediction": 1,
+          "score": 1.5,
+          "index": 5,
+          "history": [
+            1,
+            -1,
+            -1,
+            -1,
+            -1,
+            1,
+            1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 564,
+          "pc": "0x1018",
+          "actual": 0,
+          "prediction": 1,
+          "score": 0.5,
+          "index": 6,
+          "history": [
+            -1,
+            1,
+            -1,
+            -1,
+            -1,
+            -1,
+            1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 565,
+          "pc": "0x101c",
+          "actual": 0,
+          "prediction": 1,
+          "score": 1.5,
+          "index": 7,
+          "history": [
+            -1,
+            -1,
+            1,
+            -1,
+            -1,
+            -1,
+            -1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 566,
+          "pc": "0x1020",
+          "actual": 0,
+          "prediction": 1,
+          "score": 0.5,
+          "index": 8,
+          "history": [
+            -1,
+            -1,
+            -1,
+            1,
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 567,
+          "pc": "0x1000",
+          "actual": 0,
+          "prediction": 0,
+          "score": -0.5,
+          "index": 0,
+          "history": [
+            -1,
+            -1,
+            -1,
+            -1,
+            1,
+            -1,
+            -1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 568,
+          "pc": "0x1004",
+          "actual": 1,
+          "prediction": 0,
+          "score": -1.5,
+          "index": 1,
+          "history": [
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            1,
+            -1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 569,
+          "pc": "0x1008",
+          "actual": 0,
+          "prediction": 0,
+          "score": -1.5,
+          "index": 2,
+          "history": [
+            1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 570,
+          "pc": "0x100c",
+          "actual": 1,
+          "prediction": 0,
+          "score": -0.5,
+          "index": 3,
+          "history": [
+            -1,
+            1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 571,
+          "pc": "0x1010",
+          "actual": 1,
+          "prediction": 1,
+          "score": 1.5,
+          "index": 4,
+          "history": [
+            1,
+            -1,
+            1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 572,
+          "pc": "0x1014",
+          "actual": 0,
+          "prediction": 1,
+          "score": 0.5,
+          "index": 5,
+          "history": [
+            1,
+            1,
+            -1,
+            1,
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 573,
+          "pc": "0x1018",
+          "actual": 0,
+          "prediction": 0,
+          "score": -0.5,
+          "index": 6,
+          "history": [
+            -1,
+            1,
+            1,
+            -1,
+            1,
+            -1,
+            -1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 574,
+          "pc": "0x101c",
+          "actual": 1,
+          "prediction": 1,
+          "score": 0.5,
+          "index": 7,
+          "history": [
+            -1,
+            -1,
+            1,
+            1,
+            -1,
+            1,
+            -1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 575,
+          "pc": "0x1020",
+          "actual": 0,
+          "prediction": 0,
+          "score": -0.5,
+          "index": 8,
+          "history": [
+            1,
+            -1,
+            -1,
+            1,
+            1,
+            -1,
+            1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 576,
+          "pc": "0x1000",
+          "actual": 1,
+          "prediction": 0,
+          "score": -1.5,
+          "index": 0,
+          "history": [
+            -1,
+            1,
+            -1,
+            -1,
+            1,
+            1,
+            -1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 577,
+          "pc": "0x1004",
+          "actual": 0,
+          "prediction": 0,
+          "score": -0.5,
+          "index": 1,
+          "history": [
+            1,
+            -1,
+            1,
+            -1,
+            -1,
+            1,
+            1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 578,
+          "pc": "0x1008",
+          "actual": 0,
+          "prediction": 0,
+          "score": -1.5,
+          "index": 2,
+          "history": [
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            -1,
+            1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 579,
+          "pc": "0x100c",
+          "actual": 0,
+          "prediction": 1,
+          "score": 0.5,
+          "index": 3,
+          "history": [
+            -1,
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            -1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 580,
+          "pc": "0x1010",
+          "actual": 1,
+          "prediction": 1,
+          "score": 1.5,
+          "index": 4,
+          "history": [
+            -1,
+            -1,
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 581,
+          "pc": "0x1014",
+          "actual": 0,
+          "prediction": 0,
+          "score": -0.5,
+          "index": 5,
+          "history": [
+            1,
+            -1,
+            -1,
+            -1,
+            1,
+            -1,
+            1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 582,
+          "pc": "0x1018",
+          "actual": 0,
+          "prediction": 0,
+          "score": -1.5,
+          "index": 6,
+          "history": [
+            -1,
+            1,
+            -1,
+            -1,
+            -1,
+            1,
+            -1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 583,
+          "pc": "0x101c",
+          "actual": 1,
+          "prediction": 1,
+          "score": 1.5,
+          "index": 7,
+          "history": [
+            -1,
+            -1,
+            1,
+            -1,
+            -1,
+            -1,
+            1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 584,
+          "pc": "0x1020",
+          "actual": 1,
+          "prediction": 0,
+          "score": -1.5,
+          "index": 8,
+          "history": [
+            1,
+            -1,
+            -1,
+            1,
+            -1,
+            -1,
+            -1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 585,
+          "pc": "0x1000",
+          "actual": 0,
+          "prediction": 0,
+          "score": -0.5,
+          "index": 0,
+          "history": [
+            1,
+            1,
+            -1,
+            -1,
+            1,
+            -1,
+            -1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 586,
+          "pc": "0x1004",
+          "actual": 1,
+          "prediction": 0,
+          "score": -1.5,
+          "index": 1,
+          "history": [
+            -1,
+            1,
+            1,
+            -1,
+            -1,
+            1,
+            -1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 587,
+          "pc": "0x1008",
+          "actual": 0,
+          "prediction": 0,
+          "score": -1.5,
+          "index": 2,
+          "history": [
+            1,
+            -1,
+            1,
+            1,
+            -1,
+            -1,
+            1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 588,
+          "pc": "0x100c",
+          "actual": 0,
+          "prediction": 0,
+          "score": -0.5,
+          "index": 3,
+          "history": [
+            -1,
+            1,
+            -1,
+            1,
+            1,
+            -1,
+            -1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 589,
+          "pc": "0x1010",
+          "actual": 1,
+          "prediction": 1,
+          "score": 1.5,
+          "index": 4,
+          "history": [
+            -1,
+            -1,
+            1,
+            -1,
+            1,
+            1,
+            -1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 590,
+          "pc": "0x1014",
+          "actual": 0,
+          "prediction": 0,
+          "score": -1.5,
+          "index": 5,
+          "history": [
+            1,
+            -1,
+            -1,
+            1,
+            -1,
+            1,
+            1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 591,
+          "pc": "0x1018",
+          "actual": 0,
+          "prediction": 0,
+          "score": -1.5,
+          "index": 6,
+          "history": [
+            -1,
+            1,
+            -1,
+            -1,
+            1,
+            -1,
+            1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 592,
+          "pc": "0x101c",
+          "actual": 0,
+          "prediction": 1,
+          "score": 1.5,
+          "index": 7,
+          "history": [
+            -1,
+            -1,
+            1,
+            -1,
+            -1,
+            1,
+            -1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 593,
+          "pc": "0x1020",
+          "actual": 0,
+          "prediction": 0,
+          "score": -0.5,
+          "index": 8,
+          "history": [
+            -1,
+            -1,
+            -1,
+            1,
+            -1,
+            -1,
+            1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 594,
+          "pc": "0x1000",
+          "actual": 0,
+          "prediction": 0,
+          "score": -1.5,
+          "index": 0,
+          "history": [
+            -1,
+            -1,
+            -1,
+            -1,
+            1,
+            -1,
+            -1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 595,
+          "pc": "0x1004",
+          "actual": 1,
+          "prediction": 0,
+          "score": -0.5,
+          "index": 1,
+          "history": [
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            1,
+            -1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 596,
+          "pc": "0x1008",
+          "actual": 0,
+          "prediction": 0,
+          "score": -1.5,
+          "index": 2,
+          "history": [
+            1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 597,
+          "pc": "0x100c",
+          "actual": 1,
+          "prediction": 0,
+          "score": -1.5,
+          "index": 3,
+          "history": [
+            -1,
+            1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 598,
+          "pc": "0x1010",
+          "actual": 0,
+          "prediction": 1,
+          "score": 1.5,
+          "index": 4,
+          "history": [
+            1,
+            -1,
+            1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 599,
+          "pc": "0x1014",
+          "actual": 1,
+          "prediction": 0,
+          "score": -1.5,
+          "index": 5,
+          "history": [
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 600,
+          "pc": "0x1018",
+          "actual": 0,
+          "prediction": 0,
+          "score": -1.5,
+          "index": 6,
+          "history": [
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            -1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 601,
+          "pc": "0x101c",
+          "actual": 1,
+          "prediction": 1,
+          "score": 0.5,
+          "index": 7,
+          "history": [
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 602,
+          "pc": "0x1020",
+          "actual": 0,
+          "prediction": 0,
+          "score": -1.5,
+          "index": 8,
+          "history": [
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 603,
+          "pc": "0x1000",
+          "actual": 1,
+          "prediction": 0,
+          "score": -1.5,
+          "index": 0,
+          "history": [
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 604,
+          "pc": "0x1004",
+          "actual": 0,
+          "prediction": 1,
+          "score": 0.5,
+          "index": 1,
+          "history": [
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 605,
+          "pc": "0x1008",
+          "actual": 0,
+          "prediction": 0,
+          "score": -1.5,
+          "index": 2,
+          "history": [
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 606,
+          "pc": "0x100c",
+          "actual": 0,
+          "prediction": 0,
+          "score": -0.5,
+          "index": 3,
+          "history": [
+            -1,
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 607,
+          "pc": "0x1010",
+          "actual": 1,
+          "prediction": 1,
+          "score": 0.5,
+          "index": 4,
+          "history": [
+            -1,
+            -1,
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            1
+          ],
+          "weights": []
+        }
+      ],
+      "per_pc": {
+        "0x1020": {
+          "count": 610,
+          "misses": 292
+        },
+        "0x1000": {
+          "count": 610,
+          "misses": 292
+        },
+        "0x1004": {
+          "count": 610,
+          "misses": 307
+        },
+        "0x1008": {
+          "count": 610,
+          "misses": 313
+        },
+        "0x100c": {
+          "count": 610,
+          "misses": 306
+        },
+        "0x1010": {
+          "count": 610,
+          "misses": 270
+        },
+        "0x1014": {
+          "count": 610,
+          "misses": 298
+        },
+        "0x1018": {
+          "count": 609,
+          "misses": 281
+        },
+        "0x101c": {
+          "count": 609,
+          "misses": 284
+        }
+      }
+    },
+    {
+      "kind": "gshare",
+      "budget_bytes": 256,
+      "history": 8,
+      "storage_bits": 1032,
+      "entries": 512,
+      "count": 5488,
+      "misses": 2672,
+      "miss_rate": 48.68804664723032,
+      "bins": [
+        {
+          "step": 767,
+          "count": 256,
+          "misses": 121,
+          "rate": 47.265625
+        },
+        {
+          "step": 1023,
+          "count": 256,
+          "misses": 127,
+          "rate": 49.609375
+        },
+        {
+          "step": 1279,
+          "count": 256,
+          "misses": 127,
+          "rate": 49.609375
+        },
+        {
+          "step": 1535,
+          "count": 256,
+          "misses": 138,
+          "rate": 53.90625
+        },
+        {
+          "step": 1791,
+          "count": 256,
+          "misses": 129,
+          "rate": 50.390625
+        },
+        {
+          "step": 2047,
+          "count": 256,
+          "misses": 124,
+          "rate": 48.4375
+        },
+        {
+          "step": 2303,
+          "count": 256,
+          "misses": 117,
+          "rate": 45.703125
+        },
+        {
+          "step": 2559,
+          "count": 256,
+          "misses": 121,
+          "rate": 47.265625
+        },
+        {
+          "step": 2815,
+          "count": 256,
+          "misses": 113,
+          "rate": 44.140625
+        },
+        {
+          "step": 3071,
+          "count": 256,
+          "misses": 122,
+          "rate": 47.65625
+        },
+        {
+          "step": 3327,
+          "count": 256,
+          "misses": 130,
+          "rate": 50.78125
+        },
+        {
+          "step": 3583,
+          "count": 256,
+          "misses": 129,
+          "rate": 50.390625
+        },
+        {
+          "step": 3839,
+          "count": 256,
+          "misses": 129,
+          "rate": 50.390625
+        },
+        {
+          "step": 4095,
+          "count": 256,
+          "misses": 137,
+          "rate": 53.515625
+        },
+        {
+          "step": 4351,
+          "count": 256,
+          "misses": 124,
+          "rate": 48.4375
+        },
+        {
+          "step": 4607,
+          "count": 256,
+          "misses": 123,
+          "rate": 48.046875
+        },
+        {
+          "step": 4863,
+          "count": 256,
+          "misses": 119,
+          "rate": 46.484375
+        },
+        {
+          "step": 5119,
+          "count": 256,
+          "misses": 128,
+          "rate": 50.0
+        },
+        {
+          "step": 5375,
+          "count": 256,
+          "misses": 117,
+          "rate": 45.703125
+        },
+        {
+          "step": 5631,
+          "count": 256,
+          "misses": 119,
+          "rate": 46.484375
+        },
+        {
+          "step": 5887,
+          "count": 256,
+          "misses": 118,
+          "rate": 46.09375
+        },
+        {
+          "step": 5999,
+          "count": 112,
+          "misses": 60,
+          "rate": 53.57142857142857
+        }
+      ],
+      "events": [
+        {
+          "step": 512,
+          "pc": "0x1020",
+          "actual": 0,
+          "prediction": 0,
+          "score": -1.5,
+          "index": 117,
+          "history": [
+            1,
+            -1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 513,
+          "pc": "0x1000",
+          "actual": 0,
+          "prediction": 1,
+          "score": 0.5,
+          "index": 250,
+          "history": [
+            -1,
+            1,
+            -1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 514,
+          "pc": "0x1004",
+          "actual": 1,
+          "prediction": 0,
+          "score": -0.5,
+          "index": 245,
+          "history": [
+            -1,
+            -1,
+            1,
+            -1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 515,
+          "pc": "0x1008",
+          "actual": 0,
+          "prediction": 0,
+          "score": -0.5,
+          "index": 235,
+          "history": [
+            1,
+            -1,
+            -1,
+            1,
+            -1,
+            1,
+            1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 516,
+          "pc": "0x100c",
+          "actual": 0,
+          "prediction": 0,
+          "score": -1.5,
+          "index": 209,
+          "history": [
+            -1,
+            1,
+            -1,
+            -1,
+            1,
+            -1,
+            1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 517,
+          "pc": "0x1010",
+          "actual": 1,
+          "prediction": 0,
+          "score": -0.5,
+          "index": 160,
+          "history": [
+            -1,
+            -1,
+            1,
+            -1,
+            -1,
+            1,
+            -1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 518,
+          "pc": "0x1014",
+          "actual": 1,
+          "prediction": 0,
+          "score": -1.5,
+          "index": 76,
+          "history": [
+            1,
+            -1,
+            -1,
+            1,
+            -1,
+            -1,
+            1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 519,
+          "pc": "0x1018",
+          "actual": 0,
+          "prediction": 0,
+          "score": -0.5,
+          "index": 149,
+          "history": [
+            1,
+            1,
+            -1,
+            -1,
+            1,
+            -1,
+            -1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 520,
+          "pc": "0x101c",
+          "actual": 0,
+          "prediction": 0,
+          "score": -0.5,
+          "index": 33,
+          "history": [
+            -1,
+            1,
+            1,
+            -1,
+            -1,
+            1,
+            -1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 521,
+          "pc": "0x1020",
+          "actual": 0,
+          "prediction": 1,
+          "score": 1.5,
+          "index": 68,
+          "history": [
+            -1,
+            -1,
+            1,
+            1,
+            -1,
+            -1,
+            1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 522,
+          "pc": "0x1000",
+          "actual": 1,
+          "prediction": 0,
+          "score": -1.5,
+          "index": 152,
+          "history": [
+            -1,
+            -1,
+            -1,
+            1,
+            1,
+            -1,
+            -1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 523,
+          "pc": "0x1004",
+          "actual": 0,
+          "prediction": 0,
+          "score": -0.5,
+          "index": 48,
+          "history": [
+            1,
+            -1,
+            -1,
+            -1,
+            1,
+            1,
+            -1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 524,
+          "pc": "0x1008",
+          "actual": 0,
+          "prediction": 0,
+          "score": -1.5,
+          "index": 96,
+          "history": [
+            -1,
+            1,
+            -1,
+            -1,
+            -1,
+            1,
+            1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 525,
+          "pc": "0x100c",
+          "actual": 1,
+          "prediction": 1,
+          "score": 0.5,
+          "index": 199,
+          "history": [
+            -1,
+            -1,
+            1,
+            -1,
+            -1,
+            -1,
+            1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 526,
+          "pc": "0x1010",
+          "actual": 0,
+          "prediction": 1,
+          "score": 0.5,
+          "index": 141,
+          "history": [
+            1,
+            -1,
+            -1,
+            1,
+            -1,
+            -1,
+            -1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 527,
+          "pc": "0x1014",
+          "actual": 1,
+          "prediction": 0,
+          "score": -1.5,
+          "index": 23,
+          "history": [
+            -1,
+            1,
+            -1,
+            -1,
+            1,
+            -1,
+            -1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 528,
+          "pc": "0x1018",
+          "actual": 1,
+          "prediction": 0,
+          "score": -1.5,
+          "index": 35,
+          "history": [
+            1,
+            -1,
+            1,
+            -1,
+            -1,
+            1,
+            -1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 529,
+          "pc": "0x101c",
+          "actual": 0,
+          "prediction": 0,
+          "score": -0.5,
+          "index": 76,
+          "history": [
+            1,
+            1,
+            -1,
+            1,
+            -1,
+            -1,
+            1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 530,
+          "pc": "0x1020",
+          "actual": 1,
+          "prediction": 0,
+          "score": -1.5,
+          "index": 158,
+          "history": [
+            -1,
+            1,
+            1,
+            -1,
+            1,
+            -1,
+            -1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 531,
+          "pc": "0x1000",
+          "actual": 1,
+          "prediction": 1,
+          "score": 0.5,
+          "index": 45,
+          "history": [
+            1,
+            -1,
+            1,
+            1,
+            -1,
+            1,
+            -1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 532,
+          "pc": "0x1004",
+          "actual": 0,
+          "prediction": 0,
+          "score": -0.5,
+          "index": 90,
+          "history": [
+            1,
+            1,
+            -1,
+            1,
+            1,
+            -1,
+            1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 533,
+          "pc": "0x1008",
+          "actual": 0,
+          "prediction": 1,
+          "score": 0.5,
+          "index": 180,
+          "history": [
+            -1,
+            1,
+            1,
+            -1,
+            1,
+            1,
+            -1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 534,
+          "pc": "0x100c",
+          "actual": 0,
+          "prediction": 0,
+          "score": -0.5,
+          "index": 111,
+          "history": [
+            -1,
+            -1,
+            1,
+            1,
+            -1,
+            1,
+            1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 535,
+          "pc": "0x1010",
+          "actual": 0,
+          "prediction": 0,
+          "score": -0.5,
+          "index": 220,
+          "history": [
+            -1,
+            -1,
+            -1,
+            1,
+            1,
+            -1,
+            1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 536,
+          "pc": "0x1014",
+          "actual": 0,
+          "prediction": 0,
+          "score": -1.5,
+          "index": 181,
+          "history": [
+            -1,
+            -1,
+            -1,
+            -1,
+            1,
+            1,
+            -1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 537,
+          "pc": "0x1018",
+          "actual": 1,
+          "prediction": 0,
+          "score": -1.5,
+          "index": 102,
+          "history": [
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            1,
+            1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 538,
+          "pc": "0x101c",
+          "actual": 1,
+          "prediction": 0,
+          "score": -1.5,
+          "index": 198,
+          "history": [
+            1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 539,
+          "pc": "0x1020",
+          "actual": 1,
+          "prediction": 0,
+          "score": -0.5,
+          "index": 139,
+          "history": [
+            1,
+            1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 540,
+          "pc": "0x1000",
+          "actual": 0,
+          "prediction": 0,
+          "score": -1.5,
+          "index": 7,
+          "history": [
+            1,
+            1,
+            1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 541,
+          "pc": "0x1004",
+          "actual": 1,
+          "prediction": 1,
+          "score": 0.5,
+          "index": 15,
+          "history": [
+            -1,
+            1,
+            1,
+            1,
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 542,
+          "pc": "0x1008",
+          "actual": 1,
+          "prediction": 0,
+          "score": -1.5,
+          "index": 31,
+          "history": [
+            1,
+            -1,
+            1,
+            1,
+            1,
+            -1,
+            -1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 543,
+          "pc": "0x100c",
+          "actual": 0,
+          "prediction": 0,
+          "score": -1.5,
+          "index": 56,
+          "history": [
+            1,
+            1,
+            -1,
+            1,
+            1,
+            1,
+            -1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 544,
+          "pc": "0x1010",
+          "actual": 1,
+          "prediction": 1,
+          "score": 1.5,
+          "index": 114,
+          "history": [
+            -1,
+            1,
+            1,
+            -1,
+            1,
+            1,
+            1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 545,
+          "pc": "0x1014",
+          "actual": 1,
+          "prediction": 0,
+          "score": -1.5,
+          "index": 232,
+          "history": [
+            1,
+            -1,
+            1,
+            1,
+            -1,
+            1,
+            1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 546,
+          "pc": "0x1018",
+          "actual": 1,
+          "prediction": 0,
+          "score": -1.5,
+          "index": 221,
+          "history": [
+            1,
+            1,
+            -1,
+            1,
+            1,
+            -1,
+            1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 547,
+          "pc": "0x101c",
+          "actual": 1,
+          "prediction": 0,
+          "score": -0.5,
+          "index": 176,
+          "history": [
+            1,
+            1,
+            1,
+            -1,
+            1,
+            1,
+            -1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 548,
+          "pc": "0x1020",
+          "actual": 0,
+          "prediction": 0,
+          "score": -0.5,
+          "index": 103,
+          "history": [
+            1,
+            1,
+            1,
+            1,
+            -1,
+            1,
+            1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 549,
+          "pc": "0x1000",
+          "actual": 1,
+          "prediction": 1,
+          "score": 0.5,
+          "index": 222,
+          "history": [
+            -1,
+            1,
+            1,
+            1,
+            1,
+            -1,
+            1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 550,
+          "pc": "0x1004",
+          "actual": 0,
+          "prediction": 1,
+          "score": 1.5,
+          "index": 188,
+          "history": [
+            1,
+            -1,
+            1,
+            1,
+            1,
+            1,
+            -1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 551,
+          "pc": "0x1008",
+          "actual": 0,
+          "prediction": 0,
+          "score": -0.5,
+          "index": 120,
+          "history": [
+            -1,
+            1,
+            -1,
+            1,
+            1,
+            1,
+            1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 552,
+          "pc": "0x100c",
+          "actual": 1,
+          "prediction": 0,
+          "score": -0.5,
+          "index": 247,
+          "history": [
+            -1,
+            -1,
+            1,
+            -1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 553,
+          "pc": "0x1010",
+          "actual": 1,
+          "prediction": 0,
+          "score": -1.5,
+          "index": 237,
+          "history": [
+            1,
+            -1,
+            -1,
+            1,
+            -1,
+            1,
+            1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 554,
+          "pc": "0x1014",
+          "actual": 1,
+          "prediction": 0,
+          "score": -1.5,
+          "index": 214,
+          "history": [
+            1,
+            1,
+            -1,
+            -1,
+            1,
+            -1,
+            1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 555,
+          "pc": "0x1018",
+          "actual": 0,
+          "prediction": 1,
+          "score": 0.5,
+          "index": 161,
+          "history": [
+            1,
+            1,
+            1,
+            -1,
+            -1,
+            1,
+            -1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 556,
+          "pc": "0x101c",
+          "actual": 1,
+          "prediction": 0,
+          "score": -0.5,
+          "index": 73,
+          "history": [
+            -1,
+            1,
+            1,
+            1,
+            -1,
+            -1,
+            1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 557,
+          "pc": "0x1020",
+          "actual": 1,
+          "prediction": 0,
+          "score": -1.5,
+          "index": 149,
+          "history": [
+            1,
+            -1,
+            1,
+            1,
+            1,
+            -1,
+            -1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 558,
+          "pc": "0x1000",
+          "actual": 0,
+          "prediction": 1,
+          "score": 0.5,
+          "index": 59,
+          "history": [
+            1,
+            1,
+            -1,
+            1,
+            1,
+            1,
+            -1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 559,
+          "pc": "0x1004",
+          "actual": 0,
+          "prediction": 1,
+          "score": 0.5,
+          "index": 119,
+          "history": [
+            -1,
+            1,
+            1,
+            -1,
+            1,
+            1,
+            1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 560,
+          "pc": "0x1008",
+          "actual": 0,
+          "prediction": 0,
+          "score": -1.5,
+          "index": 238,
+          "history": [
+            -1,
+            -1,
+            1,
+            1,
+            -1,
+            1,
+            1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 561,
+          "pc": "0x100c",
+          "actual": 0,
+          "prediction": 1,
+          "score": 0.5,
+          "index": 219,
+          "history": [
+            -1,
+            -1,
+            -1,
+            1,
+            1,
+            -1,
+            1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 562,
+          "pc": "0x1010",
+          "actual": 1,
+          "prediction": 0,
+          "score": -0.5,
+          "index": 180,
+          "history": [
+            -1,
+            -1,
+            -1,
+            -1,
+            1,
+            1,
+            -1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 563,
+          "pc": "0x1014",
+          "actual": 0,
+          "prediction": 0,
+          "score": -1.5,
+          "index": 100,
+          "history": [
+            1,
+            -1,
+            -1,
+            -1,
+            -1,
+            1,
+            1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 564,
+          "pc": "0x1018",
+          "actual": 0,
+          "prediction": 1,
+          "score": 1.5,
+          "index": 196,
+          "history": [
+            -1,
+            1,
+            -1,
+            -1,
+            -1,
+            -1,
+            1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 565,
+          "pc": "0x101c",
+          "actual": 0,
+          "prediction": 1,
+          "score": 0.5,
+          "index": 131,
+          "history": [
+            -1,
+            -1,
+            1,
+            -1,
+            -1,
+            -1,
+            -1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 566,
+          "pc": "0x1020",
+          "actual": 0,
+          "prediction": 0,
+          "score": -0.5,
+          "index": 0,
+          "history": [
+            -1,
+            -1,
+            -1,
+            1,
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 567,
+          "pc": "0x1000",
+          "actual": 0,
+          "prediction": 0,
+          "score": -0.5,
+          "index": 16,
+          "history": [
+            -1,
+            -1,
+            -1,
+            -1,
+            1,
+            -1,
+            -1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 568,
+          "pc": "0x1004",
+          "actual": 1,
+          "prediction": 0,
+          "score": -1.5,
+          "index": 33,
+          "history": [
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            1,
+            -1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 569,
+          "pc": "0x1008",
+          "actual": 0,
+          "prediction": 1,
+          "score": 0.5,
+          "index": 67,
+          "history": [
+            1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 570,
+          "pc": "0x100c",
+          "actual": 1,
+          "prediction": 0,
+          "score": -0.5,
+          "index": 129,
+          "history": [
+            -1,
+            1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 571,
+          "pc": "0x1010",
+          "actual": 1,
+          "prediction": 1,
+          "score": 1.5,
+          "index": 1,
+          "history": [
+            1,
+            -1,
+            1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 572,
+          "pc": "0x1014",
+          "actual": 0,
+          "prediction": 1,
+          "score": 0.5,
+          "index": 14,
+          "history": [
+            1,
+            1,
+            -1,
+            1,
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 573,
+          "pc": "0x1018",
+          "actual": 0,
+          "prediction": 0,
+          "score": -1.5,
+          "index": 16,
+          "history": [
+            -1,
+            1,
+            1,
+            -1,
+            1,
+            -1,
+            -1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 574,
+          "pc": "0x101c",
+          "actual": 1,
+          "prediction": 0,
+          "score": -0.5,
+          "index": 43,
+          "history": [
+            -1,
+            -1,
+            1,
+            1,
+            -1,
+            1,
+            -1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 575,
+          "pc": "0x1020",
+          "actual": 0,
+          "prediction": 1,
+          "score": 1.5,
+          "index": 81,
+          "history": [
+            1,
+            -1,
+            -1,
+            1,
+            1,
+            -1,
+            1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 576,
+          "pc": "0x1000",
+          "actual": 1,
+          "prediction": 0,
+          "score": -1.5,
+          "index": 178,
+          "history": [
+            -1,
+            1,
+            -1,
+            -1,
+            1,
+            1,
+            -1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 577,
+          "pc": "0x1004",
+          "actual": 0,
+          "prediction": 0,
+          "score": -1.5,
+          "index": 100,
+          "history": [
+            1,
+            -1,
+            1,
+            -1,
+            -1,
+            1,
+            1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 578,
+          "pc": "0x1008",
+          "actual": 0,
+          "prediction": 0,
+          "score": -0.5,
+          "index": 200,
+          "history": [
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            -1,
+            1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 579,
+          "pc": "0x100c",
+          "actual": 0,
+          "prediction": 0,
+          "score": -0.5,
+          "index": 151,
+          "history": [
+            -1,
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            -1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 580,
+          "pc": "0x1010",
+          "actual": 1,
+          "prediction": 0,
+          "score": -1.5,
+          "index": 44,
+          "history": [
+            -1,
+            -1,
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 581,
+          "pc": "0x1014",
+          "actual": 0,
+          "prediction": 0,
+          "score": -1.5,
+          "index": 84,
+          "history": [
+            1,
+            -1,
+            -1,
+            -1,
+            1,
+            -1,
+            1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 582,
+          "pc": "0x1018",
+          "actual": 0,
+          "prediction": 0,
+          "score": -1.5,
+          "index": 164,
+          "history": [
+            -1,
+            1,
+            -1,
+            -1,
+            -1,
+            1,
+            -1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 583,
+          "pc": "0x101c",
+          "actual": 1,
+          "prediction": 0,
+          "score": -0.5,
+          "index": 67,
+          "history": [
+            -1,
+            -1,
+            1,
+            -1,
+            -1,
+            -1,
+            1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 584,
+          "pc": "0x1020",
+          "actual": 1,
+          "prediction": 1,
+          "score": 0.5,
+          "index": 129,
+          "history": [
+            1,
+            -1,
+            -1,
+            1,
+            -1,
+            -1,
+            -1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 585,
+          "pc": "0x1000",
+          "actual": 0,
+          "prediction": 1,
+          "score": 0.5,
+          "index": 19,
+          "history": [
+            1,
+            1,
+            -1,
+            -1,
+            1,
+            -1,
+            -1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 586,
+          "pc": "0x1004",
+          "actual": 1,
+          "prediction": 1,
+          "score": 0.5,
+          "index": 39,
+          "history": [
+            -1,
+            1,
+            1,
+            -1,
+            -1,
+            1,
+            -1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 587,
+          "pc": "0x1008",
+          "actual": 0,
+          "prediction": 0,
+          "score": -0.5,
+          "index": 79,
+          "history": [
+            1,
+            -1,
+            1,
+            1,
+            -1,
+            -1,
+            1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 588,
+          "pc": "0x100c",
+          "actual": 0,
+          "prediction": 0,
+          "score": -0.5,
+          "index": 153,
+          "history": [
+            -1,
+            1,
+            -1,
+            1,
+            1,
+            -1,
+            -1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 589,
+          "pc": "0x1010",
+          "actual": 1,
+          "prediction": 0,
+          "score": -1.5,
+          "index": 48,
+          "history": [
+            -1,
+            -1,
+            1,
+            -1,
+            1,
+            1,
+            -1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 590,
+          "pc": "0x1014",
+          "actual": 0,
+          "prediction": 0,
+          "score": -1.5,
+          "index": 108,
+          "history": [
+            1,
+            -1,
+            -1,
+            1,
+            -1,
+            1,
+            1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 591,
+          "pc": "0x1018",
+          "actual": 0,
+          "prediction": 1,
+          "score": 0.5,
+          "index": 212,
+          "history": [
+            -1,
+            1,
+            -1,
+            -1,
+            1,
+            -1,
+            1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 592,
+          "pc": "0x101c",
+          "actual": 0,
+          "prediction": 0,
+          "score": -0.5,
+          "index": 163,
+          "history": [
+            -1,
+            -1,
+            1,
+            -1,
+            -1,
+            1,
+            -1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 593,
+          "pc": "0x1020",
+          "actual": 0,
+          "prediction": 0,
+          "score": -0.5,
+          "index": 64,
+          "history": [
+            -1,
+            -1,
+            -1,
+            1,
+            -1,
+            -1,
+            1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 594,
+          "pc": "0x1000",
+          "actual": 0,
+          "prediction": 0,
+          "score": -1.5,
+          "index": 144,
+          "history": [
+            -1,
+            -1,
+            -1,
+            -1,
+            1,
+            -1,
+            -1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 595,
+          "pc": "0x1004",
+          "actual": 1,
+          "prediction": 0,
+          "score": -0.5,
+          "index": 33,
+          "history": [
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            1,
+            -1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 596,
+          "pc": "0x1008",
+          "actual": 0,
+          "prediction": 1,
+          "score": 0.5,
+          "index": 67,
+          "history": [
+            1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 597,
+          "pc": "0x100c",
+          "actual": 1,
+          "prediction": 1,
+          "score": 1.5,
+          "index": 129,
+          "history": [
+            -1,
+            1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 598,
+          "pc": "0x1010",
+          "actual": 0,
+          "prediction": 1,
+          "score": 1.5,
+          "index": 1,
+          "history": [
+            1,
+            -1,
+            1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 599,
+          "pc": "0x1014",
+          "actual": 1,
+          "prediction": 1,
+          "score": 1.5,
+          "index": 15,
+          "history": [
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 600,
+          "pc": "0x1018",
+          "actual": 0,
+          "prediction": 0,
+          "score": -0.5,
+          "index": 19,
+          "history": [
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            -1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 601,
+          "pc": "0x101c",
+          "actual": 1,
+          "prediction": 1,
+          "score": 1.5,
+          "index": 45,
+          "history": [
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 602,
+          "pc": "0x1020",
+          "actual": 0,
+          "prediction": 0,
+          "score": -1.5,
+          "index": 93,
+          "history": [
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 603,
+          "pc": "0x1000",
+          "actual": 1,
+          "prediction": 1,
+          "score": 0.5,
+          "index": 170,
+          "history": [
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 604,
+          "pc": "0x1004",
+          "actual": 0,
+          "prediction": 0,
+          "score": -1.5,
+          "index": 84,
+          "history": [
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 605,
+          "pc": "0x1008",
+          "actual": 0,
+          "prediction": 0,
+          "score": -1.5,
+          "index": 168,
+          "history": [
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            1
+          ],
+          "weights": []
+        },
+        {
+          "step": 606,
+          "pc": "0x100c",
+          "actual": 0,
+          "prediction": 0,
+          "score": -0.5,
+          "index": 87,
+          "history": [
+            -1,
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1
+          ],
+          "weights": []
+        },
+        {
+          "step": 607,
+          "pc": "0x1010",
+          "actual": 1,
+          "prediction": 0,
+          "score": -0.5,
+          "index": 172,
+          "history": [
+            -1,
+            -1,
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            1
+          ],
+          "weights": []
+        }
+      ],
+      "per_pc": {
+        "0x1020": {
+          "count": 610,
+          "misses": 237
+        },
+        "0x1000": {
+          "count": 610,
+          "misses": 310
+        },
+        "0x1004": {
+          "count": 610,
+          "misses": 280
+        },
+        "0x1008": {
+          "count": 610,
+          "misses": 294
+        },
+        "0x100c": {
+          "count": 610,
+          "misses": 309
+        },
+        "0x1010": {
+          "count": 610,
+          "misses": 309
+        },
+        "0x1014": {
+          "count": 610,
+          "misses": 326
+        },
+        "0x1018": {
+          "count": 609,
+          "misses": 297
+        },
+        "0x101c": {
+          "count": 609,
+          "misses": 310
+        }
+      }
+    },
+    {
+      "kind": "perceptron",
+      "budget_bytes": 256,
+      "history": 8,
+      "storage_bits": 2024,
+      "entries": 28,
+      "count": 5488,
+      "misses": 2476,
+      "miss_rate": 45.116618075801746,
+      "bins": [
+        {
+          "step": 767,
+          "count": 256,
+          "misses": 112,
+          "rate": 43.75
+        },
+        {
+          "step": 1023,
+          "count": 256,
+          "misses": 125,
+          "rate": 48.828125
+        },
+        {
+          "step": 1279,
+          "count": 256,
+          "misses": 119,
+          "rate": 46.484375
+        },
+        {
+          "step": 1535,
+          "count": 256,
+          "misses": 124,
+          "rate": 48.4375
+        },
+        {
+          "step": 1791,
+          "count": 256,
+          "misses": 115,
+          "rate": 44.921875
+        },
+        {
+          "step": 2047,
+          "count": 256,
+          "misses": 127,
+          "rate": 49.609375
+        },
+        {
+          "step": 2303,
+          "count": 256,
+          "misses": 124,
+          "rate": 48.4375
+        },
+        {
+          "step": 2559,
+          "count": 256,
+          "misses": 105,
+          "rate": 41.015625
+        },
+        {
+          "step": 2815,
+          "count": 256,
+          "misses": 122,
+          "rate": 47.65625
+        },
+        {
+          "step": 3071,
+          "count": 256,
+          "misses": 118,
+          "rate": 46.09375
+        },
+        {
+          "step": 3327,
+          "count": 256,
+          "misses": 123,
+          "rate": 48.046875
+        },
+        {
+          "step": 3583,
+          "count": 256,
+          "misses": 110,
+          "rate": 42.96875
+        },
+        {
+          "step": 3839,
+          "count": 256,
+          "misses": 111,
+          "rate": 43.359375
+        },
+        {
+          "step": 4095,
+          "count": 256,
+          "misses": 109,
+          "rate": 42.578125
+        },
+        {
+          "step": 4351,
+          "count": 256,
+          "misses": 117,
+          "rate": 45.703125
+        },
+        {
+          "step": 4607,
+          "count": 256,
+          "misses": 95,
+          "rate": 37.109375
+        },
+        {
+          "step": 4863,
+          "count": 256,
+          "misses": 109,
+          "rate": 42.578125
+        },
+        {
+          "step": 5119,
+          "count": 256,
+          "misses": 117,
+          "rate": 45.703125
+        },
+        {
+          "step": 5375,
+          "count": 256,
+          "misses": 103,
+          "rate": 40.234375
+        },
+        {
+          "step": 5631,
+          "count": 256,
+          "misses": 120,
+          "rate": 46.875
+        },
+        {
+          "step": 5887,
+          "count": 256,
+          "misses": 117,
+          "rate": 45.703125
+        },
+        {
+          "step": 5999,
+          "count": 112,
+          "misses": 54,
+          "rate": 48.214285714285715
+        }
+      ],
+      "events": [
+        {
+          "step": 512,
+          "pc": "0x1020",
+          "actual": 0,
+          "prediction": 0,
+          "score": -42,
+          "index": 24,
+          "history": [
+            1,
+            -1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            -1
+          ],
+          "weights": [
+            -4,
+            0,
+            -4,
+            0,
+            -4,
+            0,
+            -2,
+            0,
+            36
+          ]
+        },
+        {
+          "step": 513,
+          "pc": "0x1000",
+          "actual": 0,
+          "prediction": 1,
+          "score": 34,
+          "index": 16,
+          "history": [
+            -1,
+            1,
+            -1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "weights": [
+            -14,
+            -2,
+            12,
+            -10,
+            4,
+            10,
+            6,
+            8,
+            -4
+          ]
+        },
+        {
+          "step": 514,
+          "pc": "0x1004",
+          "actual": 1,
+          "prediction": 0,
+          "score": -7,
+          "index": 17,
+          "history": [
+            -1,
+            -1,
+            1,
+            -1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "weights": [
+            7,
+            -3,
+            1,
+            -9,
+            1,
+            -9,
+            1,
+            -9,
+            11
+          ]
+        },
+        {
+          "step": 515,
+          "pc": "0x1008",
+          "actual": 0,
+          "prediction": 1,
+          "score": 11,
+          "index": 18,
+          "history": [
+            1,
+            -1,
+            -1,
+            1,
+            -1,
+            1,
+            1,
+            1
+          ],
+          "weights": [
+            3,
+            5,
+            -7,
+            5,
+            -5,
+            5,
+            7,
+            1,
+            3
+          ]
+        },
+        {
+          "step": 516,
+          "pc": "0x100c",
+          "actual": 0,
+          "prediction": 1,
+          "score": 18,
+          "index": 19,
+          "history": [
+            -1,
+            1,
+            -1,
+            -1,
+            1,
+            -1,
+            1,
+            1
+          ],
+          "weights": [
+            2,
+            -8,
+            -4,
+            0,
+            0,
+            -4,
+            -10,
+            -4,
+            10
+          ]
+        },
+        {
+          "step": 517,
+          "pc": "0x1010",
+          "actual": 1,
+          "prediction": 1,
+          "score": 38,
+          "index": 20,
+          "history": [
+            -1,
+            -1,
+            1,
+            -1,
+            -1,
+            1,
+            -1,
+            1
+          ],
+          "weights": [
+            2,
+            -12,
+            -2,
+            6,
+            -8,
+            -2,
+            4,
+            2,
+            4
+          ]
+        },
+        {
+          "step": 518,
+          "pc": "0x1014",
+          "actual": 1,
+          "prediction": 0,
+          "score": -23,
+          "index": 21,
+          "history": [
+            1,
+            -1,
+            -1,
+            1,
+            -1,
+            -1,
+            1,
+            -1
+          ],
+          "weights": [
+            3,
+            -13,
+            5,
+            5,
+            -3,
+            1,
+            5,
+            3,
+            -3
+          ]
+        },
+        {
+          "step": 519,
+          "pc": "0x1018",
+          "actual": 0,
+          "prediction": 0,
+          "score": -13,
+          "index": 22,
+          "history": [
+            1,
+            1,
+            -1,
+            -1,
+            1,
+            -1,
+            -1,
+            1
+          ],
+          "weights": [
+            -9,
+            -11,
+            -5,
+            5,
+            -11,
+            1,
+            -3,
+            -3,
+            -1
+          ]
+        },
+        {
+          "step": 520,
+          "pc": "0x101c",
+          "actual": 0,
+          "prediction": 0,
+          "score": -5,
+          "index": 23,
+          "history": [
+            -1,
+            1,
+            1,
+            -1,
+            -1,
+            1,
+            -1,
+            -1
+          ],
+          "weights": [
+            -9,
+            -7,
+            -11,
+            3,
+            5,
+            -3,
+            5,
+            5,
+            -7
+          ]
+        },
+        {
+          "step": 521,
+          "pc": "0x1020",
+          "actual": 0,
+          "prediction": 0,
+          "score": -38,
+          "index": 24,
+          "history": [
+            -1,
+            -1,
+            1,
+            1,
+            -1,
+            -1,
+            1,
+            -1
+          ],
+          "weights": [
+            -4,
+            0,
+            -4,
+            0,
+            -4,
+            0,
+            -2,
+            0,
+            36
+          ]
+        },
+        {
+          "step": 522,
+          "pc": "0x1000",
+          "actual": 1,
+          "prediction": 0,
+          "score": -21,
+          "index": 16,
+          "history": [
+            -1,
+            -1,
+            -1,
+            1,
+            1,
+            -1,
+            -1,
+            1
+          ],
+          "weights": [
+            -15,
+            -1,
+            11,
+            -9,
+            3,
+            9,
+            5,
+            7,
+            -5
+          ]
+        },
+        {
+          "step": 523,
+          "pc": "0x1004",
+          "actual": 0,
+          "prediction": 1,
+          "score": 2,
+          "index": 17,
+          "history": [
+            1,
+            -1,
+            -1,
+            -1,
+            1,
+            1,
+            -1,
+            -1
+          ],
+          "weights": [
+            8,
+            -4,
+            0,
+            -8,
+            0,
+            -8,
+            2,
+            -8,
+            12
+          ]
+        },
+        {
+          "step": 524,
+          "pc": "0x1008",
+          "actual": 0,
+          "prediction": 0,
+          "score": -10,
+          "index": 18,
+          "history": [
+            -1,
+            1,
+            -1,
+            -1,
+            -1,
+            1,
+            1,
+            -1
+          ],
+          "weights": [
+            2,
+            4,
+            -6,
+            6,
+            -6,
+            6,
+            6,
+            0,
+            2
+          ]
+        },
+        {
+          "step": 525,
+          "pc": "0x100c",
+          "actual": 1,
+          "prediction": 1,
+          "score": 31,
+          "index": 19,
+          "history": [
+            -1,
+            -1,
+            1,
+            -1,
+            -1,
+            -1,
+            1,
+            1
+          ],
+          "weights": [
+            1,
+            -7,
+            -5,
+            1,
+            1,
+            -5,
+            -9,
+            -5,
+            9
+          ]
+        },
+        {
+          "step": 526,
+          "pc": "0x1010",
+          "actual": 0,
+          "prediction": 0,
+          "score": -22,
+          "index": 20,
+          "history": [
+            1,
+            -1,
+            -1,
+            1,
+            -1,
+            -1,
+            -1,
+            1
+          ],
+          "weights": [
+            2,
+            -12,
+            -2,
+            6,
+            -8,
+            -2,
+            4,
+            2,
+            4
+          ]
+        },
+        {
+          "step": 527,
+          "pc": "0x1014",
+          "actual": 1,
+          "prediction": 1,
+          "score": 14,
+          "index": 21,
+          "history": [
+            -1,
+            1,
+            -1,
+            -1,
+            1,
+            -1,
+            -1,
+            -1
+          ],
+          "weights": [
+            4,
+            -12,
+            4,
+            4,
+            -2,
+            0,
+            4,
+            4,
+            -4
+          ]
+        },
+        {
+          "step": 528,
+          "pc": "0x1018",
+          "actual": 1,
+          "prediction": 1,
+          "score": 2,
+          "index": 22,
+          "history": [
+            1,
+            -1,
+            1,
+            -1,
+            -1,
+            1,
+            -1,
+            -1
+          ],
+          "weights": [
+            -10,
+            -12,
+            -6,
+            6,
+            -10,
+            0,
+            -2,
+            -2,
+            -2
+          ]
+        },
+        {
+          "step": 529,
+          "pc": "0x101c",
+          "actual": 0,
+          "prediction": 0,
+          "score": -14,
+          "index": 23,
+          "history": [
+            1,
+            1,
+            -1,
+            1,
+            -1,
+            -1,
+            1,
+            -1
+          ],
+          "weights": [
+            -10,
+            -6,
+            -12,
+            2,
+            6,
+            -2,
+            4,
+            6,
+            -6
+          ]
+        },
+        {
+          "step": 530,
+          "pc": "0x1020",
+          "actual": 1,
+          "prediction": 1,
+          "score": 34,
+          "index": 24,
+          "history": [
+            -1,
+            1,
+            1,
+            -1,
+            1,
+            -1,
+            -1,
+            1
+          ],
+          "weights": [
+            -4,
+            0,
+            -4,
+            0,
+            -4,
+            0,
+            -2,
+            0,
+            36
+          ]
+        },
+        {
+          "step": 531,
+          "pc": "0x1000",
+          "actual": 1,
+          "prediction": 0,
+          "score": -40,
+          "index": 16,
+          "history": [
+            1,
+            -1,
+            1,
+            1,
+            -1,
+            1,
+            -1,
+            -1
+          ],
+          "weights": [
+            -14,
+            -2,
+            10,
+            -10,
+            4,
+            10,
+            4,
+            6,
+            -4
+          ]
+        },
+        {
+          "step": 532,
+          "pc": "0x1004",
+          "actual": 0,
+          "prediction": 0,
+          "score": -19,
+          "index": 17,
+          "history": [
+            1,
+            1,
+            -1,
+            1,
+            1,
+            -1,
+            1,
+            -1
+          ],
+          "weights": [
+            7,
+            -5,
+            1,
+            -7,
+            1,
+            -9,
+            1,
+            -7,
+            13
+          ]
+        },
+        {
+          "step": 533,
+          "pc": "0x1008",
+          "actual": 0,
+          "prediction": 1,
+          "score": 17,
+          "index": 18,
+          "history": [
+            -1,
+            1,
+            1,
+            -1,
+            1,
+            1,
+            -1,
+            1
+          ],
+          "weights": [
+            1,
+            5,
+            -7,
+            7,
+            -5,
+            7,
+            5,
+            -1,
+            3
+          ]
+        },
+        {
+          "step": 534,
+          "pc": "0x100c",
+          "actual": 0,
+          "prediction": 0,
+          "score": -3,
+          "index": 19,
+          "history": [
+            -1,
+            -1,
+            1,
+            1,
+            -1,
+            1,
+            1,
+            -1
+          ],
+          "weights": [
+            1,
+            -7,
+            -5,
+            1,
+            1,
+            -5,
+            -9,
+            -5,
+            9
+          ]
+        },
+        {
+          "step": 535,
+          "pc": "0x1010",
+          "actual": 0,
+          "prediction": 0,
+          "score": -1,
+          "index": 20,
+          "history": [
+            -1,
+            -1,
+            -1,
+            1,
+            1,
+            -1,
+            1,
+            1
+          ],
+          "weights": [
+            1,
+            -13,
+            -1,
+            7,
+            -9,
+            -1,
+            5,
+            3,
+            3
+          ]
+        },
+        {
+          "step": 536,
+          "pc": "0x1014",
+          "actual": 0,
+          "prediction": 1,
+          "score": 9,
+          "index": 21,
+          "history": [
+            -1,
+            -1,
+            -1,
+            -1,
+            1,
+            1,
+            -1,
+            1
+          ],
+          "weights": [
+            5,
+            -13,
+            5,
+            3,
+            -3,
+            1,
+            3,
+            3,
+            -5
+          ]
+        },
+        {
+          "step": 537,
+          "pc": "0x1018",
+          "actual": 1,
+          "prediction": 1,
+          "score": 13,
+          "index": 22,
+          "history": [
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            1,
+            1,
+            -1
+          ],
+          "weights": [
+            -9,
+            -11,
+            -7,
+            7,
+            -11,
+            -1,
+            -1,
+            -3,
+            -3
+          ]
+        },
+        {
+          "step": 538,
+          "pc": "0x101c",
+          "actual": 1,
+          "prediction": 0,
+          "score": -17,
+          "index": 23,
+          "history": [
+            1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            1,
+            1
+          ],
+          "weights": [
+            -11,
+            -7,
+            -13,
+            3,
+            5,
+            -1,
+            5,
+            5,
+            -5
+          ]
+        },
+        {
+          "step": 539,
+          "pc": "0x1020",
+          "actual": 1,
+          "prediction": 1,
+          "score": 34,
+          "index": 24,
+          "history": [
+            1,
+            1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            1
+          ],
+          "weights": [
+            -4,
+            0,
+            -4,
+            0,
+            -4,
+            0,
+            -2,
+            0,
+            36
+          ]
+        },
+        {
+          "step": 540,
+          "pc": "0x1000",
+          "actual": 0,
+          "prediction": 0,
+          "score": -33,
+          "index": 16,
+          "history": [
+            1,
+            1,
+            1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "weights": [
+            -13,
+            -1,
+            9,
+            -9,
+            5,
+            9,
+            5,
+            5,
+            -5
+          ]
+        },
+        {
+          "step": 541,
+          "pc": "0x1004",
+          "actual": 1,
+          "prediction": 1,
+          "score": 8,
+          "index": 17,
+          "history": [
+            -1,
+            1,
+            1,
+            1,
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "weights": [
+            6,
+            -6,
+            0,
+            -6,
+            0,
+            -10,
+            2,
+            -8,
+            14
+          ]
+        },
+        {
+          "step": 542,
+          "pc": "0x1008",
+          "actual": 1,
+          "prediction": 1,
+          "score": 16,
+          "index": 18,
+          "history": [
+            1,
+            -1,
+            1,
+            1,
+            1,
+            -1,
+            -1,
+            -1
+          ],
+          "weights": [
+            0,
+            6,
+            -8,
+            6,
+            -4,
+            6,
+            4,
+            0,
+            2
+          ]
+        },
+        {
+          "step": 543,
+          "pc": "0x100c",
+          "actual": 0,
+          "prediction": 0,
+          "score": -28,
+          "index": 19,
+          "history": [
+            1,
+            1,
+            -1,
+            1,
+            1,
+            1,
+            -1,
+            -1
+          ],
+          "weights": [
+            0,
+            -6,
+            -4,
+            0,
+            0,
+            -4,
+            -10,
+            -6,
+            10
+          ]
+        },
+        {
+          "step": 544,
+          "pc": "0x1010",
+          "actual": 1,
+          "prediction": 1,
+          "score": 34,
+          "index": 20,
+          "history": [
+            -1,
+            1,
+            1,
+            -1,
+            1,
+            1,
+            1,
+            -1
+          ],
+          "weights": [
+            0,
+            -12,
+            0,
+            8,
+            -10,
+            -2,
+            6,
+            2,
+            2
+          ]
+        },
+        {
+          "step": 545,
+          "pc": "0x1014",
+          "actual": 1,
+          "prediction": 0,
+          "score": -12,
+          "index": 21,
+          "history": [
+            1,
+            -1,
+            1,
+            1,
+            -1,
+            1,
+            1,
+            1
+          ],
+          "weights": [
+            4,
+            -12,
+            6,
+            4,
+            -2,
+            0,
+            2,
+            4,
+            -6
+          ]
+        },
+        {
+          "step": 546,
+          "pc": "0x1018",
+          "actual": 1,
+          "prediction": 0,
+          "score": -54,
+          "index": 22,
+          "history": [
+            1,
+            1,
+            -1,
+            1,
+            1,
+            -1,
+            1,
+            1
+          ],
+          "weights": [
+            -8,
+            -12,
+            -8,
+            6,
+            -12,
+            -2,
+            0,
+            -2,
+            -4
+          ]
+        },
+        {
+          "step": 547,
+          "pc": "0x101c",
+          "actual": 1,
+          "prediction": 0,
+          "score": -40,
+          "index": 23,
+          "history": [
+            1,
+            1,
+            1,
+            -1,
+            1,
+            1,
+            -1,
+            1
+          ],
+          "weights": [
+            -10,
+            -6,
+            -14,
+            2,
+            4,
+            -2,
+            4,
+            6,
+            -4
+          ]
+        },
+        {
+          "step": 548,
+          "pc": "0x1020",
+          "actual": 0,
+          "prediction": 0,
+          "score": -50,
+          "index": 24,
+          "history": [
+            1,
+            1,
+            1,
+            1,
+            -1,
+            1,
+            1,
+            -1
+          ],
+          "weights": [
+            -4,
+            0,
+            -4,
+            0,
+            -4,
+            0,
+            -2,
+            0,
+            36
+          ]
+        },
+        {
+          "step": 549,
+          "pc": "0x1000",
+          "actual": 1,
+          "prediction": 0,
+          "score": -3,
+          "index": 16,
+          "history": [
+            -1,
+            1,
+            1,
+            1,
+            1,
+            -1,
+            1,
+            1
+          ],
+          "weights": [
+            -13,
+            -1,
+            9,
+            -9,
+            5,
+            9,
+            5,
+            5,
+            -5
+          ]
+        },
+        {
+          "step": 550,
+          "pc": "0x1004",
+          "actual": 0,
+          "prediction": 1,
+          "score": 7,
+          "index": 17,
+          "history": [
+            1,
+            -1,
+            1,
+            1,
+            1,
+            1,
+            -1,
+            1
+          ],
+          "weights": [
+            7,
+            -7,
+            1,
+            -5,
+            1,
+            -11,
+            1,
+            -9,
+            13
+          ]
+        },
+        {
+          "step": 551,
+          "pc": "0x1008",
+          "actual": 0,
+          "prediction": 0,
+          "score": -17,
+          "index": 18,
+          "history": [
+            -1,
+            1,
+            -1,
+            1,
+            1,
+            1,
+            1,
+            -1
+          ],
+          "weights": [
+            1,
+            7,
+            -9,
+            7,
+            -3,
+            7,
+            3,
+            -1,
+            1
+          ]
+        },
+        {
+          "step": 552,
+          "pc": "0x100c",
+          "actual": 1,
+          "prediction": 1,
+          "score": 3,
+          "index": 19,
+          "history": [
+            -1,
+            -1,
+            1,
+            -1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "weights": [
+            -1,
+            -7,
+            -5,
+            1,
+            -1,
+            -5,
+            -11,
+            -5,
+            11
+          ]
+        },
+        {
+          "step": 553,
+          "pc": "0x1010",
+          "actual": 1,
+          "prediction": 0,
+          "score": -18,
+          "index": 20,
+          "history": [
+            1,
+            -1,
+            -1,
+            1,
+            -1,
+            1,
+            1,
+            1
+          ],
+          "weights": [
+            0,
+            -12,
+            0,
+            8,
+            -10,
+            -2,
+            6,
+            2,
+            2
+          ]
+        },
+        {
+          "step": 554,
+          "pc": "0x1014",
+          "actual": 1,
+          "prediction": 0,
+          "score": -9,
+          "index": 21,
+          "history": [
+            1,
+            1,
+            -1,
+            -1,
+            1,
+            -1,
+            1,
+            1
+          ],
+          "weights": [
+            5,
+            -11,
+            5,
+            5,
+            -1,
+            -1,
+            3,
+            5,
+            -5
+          ]
+        },
+        {
+          "step": 555,
+          "pc": "0x1018",
+          "actual": 0,
+          "prediction": 0,
+          "score": -11,
+          "index": 22,
+          "history": [
+            1,
+            1,
+            1,
+            -1,
+            -1,
+            1,
+            -1,
+            1
+          ],
+          "weights": [
+            -7,
+            -11,
+            -7,
+            5,
+            -11,
+            -1,
+            -1,
+            -1,
+            -3
+          ]
+        },
+        {
+          "step": 556,
+          "pc": "0x101c",
+          "actual": 1,
+          "prediction": 0,
+          "score": -7,
+          "index": 23,
+          "history": [
+            -1,
+            1,
+            1,
+            1,
+            -1,
+            -1,
+            1,
+            -1
+          ],
+          "weights": [
+            -9,
+            -5,
+            -13,
+            3,
+            3,
+            -1,
+            5,
+            5,
+            -3
+          ]
+        },
+        {
+          "step": 557,
+          "pc": "0x1020",
+          "actual": 1,
+          "prediction": 1,
+          "score": 34,
+          "index": 24,
+          "history": [
+            1,
+            -1,
+            1,
+            1,
+            1,
+            -1,
+            -1,
+            1
+          ],
+          "weights": [
+            -4,
+            0,
+            -4,
+            0,
+            -4,
+            0,
+            -2,
+            0,
+            36
+          ]
+        },
+        {
+          "step": 558,
+          "pc": "0x1000",
+          "actual": 0,
+          "prediction": 1,
+          "score": 22,
+          "index": 16,
+          "history": [
+            1,
+            1,
+            -1,
+            1,
+            1,
+            1,
+            -1,
+            -1
+          ],
+          "weights": [
+            -12,
+            -2,
+            10,
+            -8,
+            6,
+            10,
+            4,
+            6,
+            -4
+          ]
+        },
+        {
+          "step": 559,
+          "pc": "0x1004",
+          "actual": 0,
+          "prediction": 0,
+          "score": -22,
+          "index": 17,
+          "history": [
+            -1,
+            1,
+            1,
+            -1,
+            1,
+            1,
+            1,
+            -1
+          ],
+          "weights": [
+            6,
+            -8,
+            2,
+            -6,
+            0,
+            -12,
+            0,
+            -8,
+            12
+          ]
+        },
+        {
+          "step": 560,
+          "pc": "0x1008",
+          "actual": 0,
+          "prediction": 1,
+          "score": 2,
+          "index": 18,
+          "history": [
+            -1,
+            -1,
+            1,
+            1,
+            -1,
+            1,
+            1,
+            1
+          ],
+          "weights": [
+            0,
+            8,
+            -10,
+            8,
+            -4,
+            6,
+            2,
+            -2,
+            2
+          ]
+        },
+        {
+          "step": 561,
+          "pc": "0x100c",
+          "actual": 0,
+          "prediction": 1,
+          "score": 24,
+          "index": 19,
+          "history": [
+            -1,
+            -1,
+            -1,
+            1,
+            1,
+            -1,
+            1,
+            1
+          ],
+          "weights": [
+            0,
+            -8,
+            -6,
+            2,
+            -2,
+            -4,
+            -10,
+            -4,
+            12
+          ]
+        },
+        {
+          "step": 562,
+          "pc": "0x1010",
+          "actual": 1,
+          "prediction": 1,
+          "score": 19,
+          "index": 20,
+          "history": [
+            -1,
+            -1,
+            -1,
+            -1,
+            1,
+            1,
+            -1,
+            1
+          ],
+          "weights": [
+            1,
+            -11,
+            -1,
+            7,
+            -9,
+            -3,
+            7,
+            3,
+            3
+          ]
+        },
+        {
+          "step": 563,
+          "pc": "0x1014",
+          "actual": 0,
+          "prediction": 1,
+          "score": 0,
+          "index": 21,
+          "history": [
+            1,
+            -1,
+            -1,
+            -1,
+            -1,
+            1,
+            1,
+            -1
+          ],
+          "weights": [
+            6,
+            -10,
+            6,
+            4,
+            -2,
+            0,
+            2,
+            6,
+            -4
+          ]
+        },
+        {
+          "step": 564,
+          "pc": "0x1018",
+          "actual": 0,
+          "prediction": 1,
+          "score": 0,
+          "index": 22,
+          "history": [
+            -1,
+            1,
+            -1,
+            -1,
+            -1,
+            -1,
+            1,
+            1
+          ],
+          "weights": [
+            -8,
+            -12,
+            -8,
+            4,
+            -10,
+            0,
+            -2,
+            0,
+            -4
+          ]
+        },
+        {
+          "step": 565,
+          "pc": "0x101c",
+          "actual": 0,
+          "prediction": 0,
+          "score": -2,
+          "index": 23,
+          "history": [
+            -1,
+            -1,
+            1,
+            -1,
+            -1,
+            -1,
+            -1,
+            1
+          ],
+          "weights": [
+            -8,
+            -6,
+            -12,
+            4,
+            4,
+            -2,
+            4,
+            6,
+            -4
+          ]
+        },
+        {
+          "step": 566,
+          "pc": "0x1020",
+          "actual": 0,
+          "prediction": 0,
+          "score": -38,
+          "index": 24,
+          "history": [
+            -1,
+            -1,
+            -1,
+            1,
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "weights": [
+            -4,
+            0,
+            -4,
+            0,
+            -4,
+            0,
+            -2,
+            0,
+            36
+          ]
+        },
+        {
+          "step": 567,
+          "pc": "0x1000",
+          "actual": 0,
+          "prediction": 0,
+          "score": -15,
+          "index": 16,
+          "history": [
+            -1,
+            -1,
+            -1,
+            -1,
+            1,
+            -1,
+            -1,
+            -1
+          ],
+          "weights": [
+            -13,
+            -3,
+            9,
+            -7,
+            5,
+            9,
+            3,
+            7,
+            -3
+          ]
+        },
+        {
+          "step": 568,
+          "pc": "0x1004",
+          "actual": 1,
+          "prediction": 1,
+          "score": 25,
+          "index": 17,
+          "history": [
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            1,
+            -1,
+            -1
+          ],
+          "weights": [
+            5,
+            -7,
+            1,
+            -7,
+            1,
+            -13,
+            -1,
+            -9,
+            13
+          ]
+        },
+        {
+          "step": 569,
+          "pc": "0x1008",
+          "actual": 0,
+          "prediction": 1,
+          "score": 3,
+          "index": 18,
+          "history": [
+            1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            1,
+            -1
+          ],
+          "weights": [
+            -1,
+            9,
+            -9,
+            7,
+            -5,
+            7,
+            1,
+            -3,
+            1
+          ]
+        },
+        {
+          "step": 570,
+          "pc": "0x100c",
+          "actual": 1,
+          "prediction": 1,
+          "score": 31,
+          "index": 19,
+          "history": [
+            -1,
+            1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            1
+          ],
+          "weights": [
+            -1,
+            -7,
+            -5,
+            3,
+            -3,
+            -5,
+            -9,
+            -5,
+            11
+          ]
+        },
+        {
+          "step": 571,
+          "pc": "0x1010",
+          "actual": 1,
+          "prediction": 0,
+          "score": -4,
+          "index": 20,
+          "history": [
+            1,
+            -1,
+            1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "weights": [
+            2,
+            -12,
+            -2,
+            6,
+            -10,
+            -2,
+            8,
+            2,
+            4
+          ]
+        },
+        {
+          "step": 572,
+          "pc": "0x1014",
+          "actual": 0,
+          "prediction": 0,
+          "score": -9,
+          "index": 21,
+          "history": [
+            1,
+            1,
+            -1,
+            1,
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "weights": [
+            5,
+            -11,
+            7,
+            5,
+            -1,
+            1,
+            1,
+            5,
+            -3
+          ]
+        },
+        {
+          "step": 573,
+          "pc": "0x1018",
+          "actual": 0,
+          "prediction": 1,
+          "score": 15,
+          "index": 22,
+          "history": [
+            -1,
+            1,
+            1,
+            -1,
+            1,
+            -1,
+            -1,
+            -1
+          ],
+          "weights": [
+            -9,
+            -11,
+            -9,
+            5,
+            -9,
+            1,
+            -1,
+            -1,
+            -5
+          ]
+        },
+        {
+          "step": 574,
+          "pc": "0x101c",
+          "actual": 1,
+          "prediction": 1,
+          "score": 19,
+          "index": 23,
+          "history": [
+            -1,
+            -1,
+            1,
+            1,
+            -1,
+            1,
+            -1,
+            -1
+          ],
+          "weights": [
+            -9,
+            -5,
+            -11,
+            3,
+            5,
+            -1,
+            5,
+            7,
+            -5
+          ]
+        },
+        {
+          "step": 575,
+          "pc": "0x1020",
+          "actual": 0,
+          "prediction": 0,
+          "score": -38,
+          "index": 24,
+          "history": [
+            1,
+            -1,
+            -1,
+            1,
+            1,
+            -1,
+            1,
+            -1
+          ],
+          "weights": [
+            -4,
+            0,
+            -4,
+            0,
+            -4,
+            0,
+            -2,
+            0,
+            36
+          ]
+        },
+        {
+          "step": 576,
+          "pc": "0x1000",
+          "actual": 1,
+          "prediction": 1,
+          "score": 0,
+          "index": 16,
+          "history": [
+            -1,
+            1,
+            -1,
+            -1,
+            1,
+            1,
+            -1,
+            1
+          ],
+          "weights": [
+            -14,
+            -2,
+            10,
+            -6,
+            6,
+            8,
+            4,
+            8,
+            -2
+          ]
+        },
+        {
+          "step": 577,
+          "pc": "0x1004",
+          "actual": 0,
+          "prediction": 0,
+          "score": -18,
+          "index": 17,
+          "history": [
+            1,
+            -1,
+            1,
+            -1,
+            -1,
+            1,
+            1,
+            -1
+          ],
+          "weights": [
+            6,
+            -8,
+            0,
+            -8,
+            0,
+            -14,
+            0,
+            -10,
+            12
+          ]
+        },
+        {
+          "step": 578,
+          "pc": "0x1008",
+          "actual": 0,
+          "prediction": 0,
+          "score": -42,
+          "index": 18,
+          "history": [
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            -1,
+            1,
+            1
+          ],
+          "weights": [
+            -2,
+            8,
+            -8,
+            8,
+            -4,
+            8,
+            2,
+            -4,
+            2
+          ]
+        },
+        {
+          "step": 579,
+          "pc": "0x100c",
+          "actual": 0,
+          "prediction": 1,
+          "score": 37,
+          "index": 19,
+          "history": [
+            -1,
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            -1,
+            1
+          ],
+          "weights": [
+            -1,
+            -7,
+            -5,
+            3,
+            -3,
+            -5,
+            -9,
+            -5,
+            11
+          ]
+        },
+        {
+          "step": 580,
+          "pc": "0x1010",
+          "actual": 1,
+          "prediction": 1,
+          "score": 5,
+          "index": 20,
+          "history": [
+            -1,
+            -1,
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            -1
+          ],
+          "weights": [
+            3,
+            -11,
+            -3,
+            7,
+            -11,
+            -3,
+            7,
+            1,
+            3
+          ]
+        },
+        {
+          "step": 581,
+          "pc": "0x1014",
+          "actual": 0,
+          "prediction": 0,
+          "score": -10,
+          "index": 21,
+          "history": [
+            1,
+            -1,
+            -1,
+            -1,
+            1,
+            -1,
+            1,
+            -1
+          ],
+          "weights": [
+            4,
+            -12,
+            6,
+            6,
+            -2,
+            2,
+            2,
+            6,
+            -2
+          ]
+        },
+        {
+          "step": 582,
+          "pc": "0x1018",
+          "actual": 0,
+          "prediction": 0,
+          "score": -10,
+          "index": 22,
+          "history": [
+            -1,
+            1,
+            -1,
+            -1,
+            -1,
+            1,
+            -1,
+            1
+          ],
+          "weights": [
+            -10,
+            -10,
+            -10,
+            4,
+            -8,
+            0,
+            0,
+            0,
+            -4
+          ]
+        },
+        {
+          "step": 583,
+          "pc": "0x101c",
+          "actual": 1,
+          "prediction": 1,
+          "score": 16,
+          "index": 23,
+          "history": [
+            -1,
+            -1,
+            1,
+            -1,
+            -1,
+            -1,
+            1,
+            -1
+          ],
+          "weights": [
+            -8,
+            -6,
+            -12,
+            4,
+            6,
+            -2,
+            6,
+            6,
+            -6
+          ]
+        },
+        {
+          "step": 584,
+          "pc": "0x1020",
+          "actual": 1,
+          "prediction": 1,
+          "score": 34,
+          "index": 24,
+          "history": [
+            1,
+            -1,
+            -1,
+            1,
+            -1,
+            -1,
+            -1,
+            1
+          ],
+          "weights": [
+            -4,
+            0,
+            -4,
+            0,
+            -4,
+            0,
+            -2,
+            0,
+            36
+          ]
+        },
+        {
+          "step": 585,
+          "pc": "0x1000",
+          "actual": 0,
+          "prediction": 0,
+          "score": -5,
+          "index": 16,
+          "history": [
+            1,
+            1,
+            -1,
+            -1,
+            1,
+            -1,
+            -1,
+            -1
+          ],
+          "weights": [
+            -13,
+            -3,
+            11,
+            -7,
+            5,
+            9,
+            5,
+            7,
+            -1
+          ]
+        },
+        {
+          "step": 586,
+          "pc": "0x1004",
+          "actual": 1,
+          "prediction": 1,
+          "score": 15,
+          "index": 17,
+          "history": [
+            -1,
+            1,
+            1,
+            -1,
+            -1,
+            1,
+            -1,
+            -1
+          ],
+          "weights": [
+            5,
+            -9,
+            1,
+            -9,
+            1,
+            -13,
+            -1,
+            -11,
+            13
+          ]
+        },
+        {
+          "step": 587,
+          "pc": "0x1008",
+          "actual": 0,
+          "prediction": 1,
+          "score": 2,
+          "index": 18,
+          "history": [
+            1,
+            -1,
+            1,
+            1,
+            -1,
+            -1,
+            1,
+            -1
+          ],
+          "weights": [
+            -2,
+            8,
+            -8,
+            8,
+            -4,
+            8,
+            2,
+            -4,
+            2
+          ]
+        },
+        {
+          "step": 588,
+          "pc": "0x100c",
+          "actual": 0,
+          "prediction": 1,
+          "score": 12,
+          "index": 19,
+          "history": [
+            -1,
+            1,
+            -1,
+            1,
+            1,
+            -1,
+            -1,
+            1
+          ],
+          "weights": [
+            -2,
+            -6,
+            -4,
+            2,
+            -2,
+            -6,
+            -8,
+            -4,
+            10
+          ]
+        },
+        {
+          "step": 589,
+          "pc": "0x1010",
+          "actual": 1,
+          "prediction": 1,
+          "score": 38,
+          "index": 20,
+          "history": [
+            -1,
+            -1,
+            1,
+            -1,
+            1,
+            1,
+            -1,
+            -1
+          ],
+          "weights": [
+            4,
+            -12,
+            -4,
+            6,
+            -10,
+            -4,
+            8,
+            0,
+            2
+          ]
+        },
+        {
+          "step": 590,
+          "pc": "0x1014",
+          "actual": 0,
+          "prediction": 0,
+          "score": -17,
+          "index": 21,
+          "history": [
+            1,
+            -1,
+            -1,
+            1,
+            -1,
+            1,
+            1,
+            -1
+          ],
+          "weights": [
+            3,
+            -13,
+            7,
+            7,
+            -1,
+            1,
+            3,
+            5,
+            -1
+          ]
+        },
+        {
+          "step": 591,
+          "pc": "0x1018",
+          "actual": 0,
+          "prediction": 0,
+          "score": -13,
+          "index": 22,
+          "history": [
+            -1,
+            1,
+            -1,
+            -1,
+            1,
+            -1,
+            1,
+            1
+          ],
+          "weights": [
+            -11,
+            -9,
+            -11,
+            5,
+            -7,
+            1,
+            -1,
+            1,
+            -5
+          ]
+        },
+        {
+          "step": 592,
+          "pc": "0x101c",
+          "actual": 0,
+          "prediction": 1,
+          "score": 7,
+          "index": 23,
+          "history": [
+            -1,
+            -1,
+            1,
+            -1,
+            -1,
+            1,
+            -1,
+            1
+          ],
+          "weights": [
+            -7,
+            -7,
+            -13,
+            5,
+            5,
+            -3,
+            5,
+            7,
+            -7
+          ]
+        },
+        {
+          "step": 593,
+          "pc": "0x1020",
+          "actual": 0,
+          "prediction": 0,
+          "score": -38,
+          "index": 24,
+          "history": [
+            -1,
+            -1,
+            -1,
+            1,
+            -1,
+            -1,
+            1,
+            -1
+          ],
+          "weights": [
+            -4,
+            0,
+            -4,
+            0,
+            -4,
+            0,
+            -2,
+            0,
+            36
+          ]
+        },
+        {
+          "step": 594,
+          "pc": "0x1000",
+          "actual": 0,
+          "prediction": 0,
+          "score": -26,
+          "index": 16,
+          "history": [
+            -1,
+            -1,
+            -1,
+            -1,
+            1,
+            -1,
+            -1,
+            1
+          ],
+          "weights": [
+            -14,
+            -4,
+            10,
+            -6,
+            6,
+            8,
+            6,
+            8,
+            0
+          ]
+        },
+        {
+          "step": 595,
+          "pc": "0x1004",
+          "actual": 1,
+          "prediction": 1,
+          "score": 36,
+          "index": 17,
+          "history": [
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            1,
+            -1,
+            -1
+          ],
+          "weights": [
+            6,
+            -10,
+            2,
+            -8,
+            0,
+            -14,
+            0,
+            -12,
+            12
+          ]
+        },
+        {
+          "step": 596,
+          "pc": "0x1008",
+          "actual": 0,
+          "prediction": 0,
+          "score": -11,
+          "index": 18,
+          "history": [
+            1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            1,
+            -1
+          ],
+          "weights": [
+            -3,
+            7,
+            -7,
+            7,
+            -5,
+            9,
+            3,
+            -5,
+            3
+          ]
+        },
+        {
+          "step": 597,
+          "pc": "0x100c",
+          "actual": 1,
+          "prediction": 1,
+          "score": 23,
+          "index": 19,
+          "history": [
+            -1,
+            1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            1
+          ],
+          "weights": [
+            -3,
+            -5,
+            -5,
+            3,
+            -3,
+            -7,
+            -7,
+            -3,
+            9
+          ]
+        },
+        {
+          "step": 598,
+          "pc": "0x1010",
+          "actual": 0,
+          "prediction": 1,
+          "score": 6,
+          "index": 20,
+          "history": [
+            1,
+            -1,
+            1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "weights": [
+            4,
+            -12,
+            -4,
+            6,
+            -10,
+            -4,
+            8,
+            0,
+            2
+          ]
+        },
+        {
+          "step": 599,
+          "pc": "0x1014",
+          "actual": 1,
+          "prediction": 1,
+          "score": 6,
+          "index": 21,
+          "history": [
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "weights": [
+            2,
+            -14,
+            8,
+            8,
+            -2,
+            2,
+            2,
+            4,
+            0
+          ]
+        },
+        {
+          "step": 600,
+          "pc": "0x1018",
+          "actual": 0,
+          "prediction": 1,
+          "score": 10,
+          "index": 22,
+          "history": [
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            -1,
+            -1
+          ],
+          "weights": [
+            -12,
+            -8,
+            -12,
+            6,
+            -6,
+            0,
+            0,
+            0,
+            -6
+          ]
+        },
+        {
+          "step": 601,
+          "pc": "0x101c",
+          "actual": 1,
+          "prediction": 0,
+          "score": -6,
+          "index": 23,
+          "history": [
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            -1
+          ],
+          "weights": [
+            -8,
+            -6,
+            -12,
+            4,
+            6,
+            -2,
+            4,
+            8,
+            -8
+          ]
+        },
+        {
+          "step": 602,
+          "pc": "0x1020",
+          "actual": 0,
+          "prediction": 0,
+          "score": -30,
+          "index": 24,
+          "history": [
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1
+          ],
+          "weights": [
+            -4,
+            0,
+            -4,
+            0,
+            -4,
+            0,
+            -2,
+            0,
+            36
+          ]
+        },
+        {
+          "step": 603,
+          "pc": "0x1000",
+          "actual": 1,
+          "prediction": 1,
+          "score": 1,
+          "index": 16,
+          "history": [
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            1
+          ],
+          "weights": [
+            -15,
+            -3,
+            11,
+            -5,
+            7,
+            7,
+            7,
+            9,
+            -1
+          ]
+        },
+        {
+          "step": 604,
+          "pc": "0x1004",
+          "actual": 0,
+          "prediction": 0,
+          "score": -52,
+          "index": 17,
+          "history": [
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1
+          ],
+          "weights": [
+            6,
+            -10,
+            2,
+            -8,
+            0,
+            -14,
+            0,
+            -12,
+            12
+          ]
+        },
+        {
+          "step": 605,
+          "pc": "0x1008",
+          "actual": 0,
+          "prediction": 0,
+          "score": -24,
+          "index": 18,
+          "history": [
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            1
+          ],
+          "weights": [
+            -4,
+            6,
+            -6,
+            8,
+            -4,
+            10,
+            4,
+            -6,
+            4
+          ]
+        },
+        {
+          "step": 606,
+          "pc": "0x100c",
+          "actual": 0,
+          "prediction": 1,
+          "score": 0,
+          "index": 19,
+          "history": [
+            -1,
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1
+          ],
+          "weights": [
+            -2,
+            -6,
+            -4,
+            2,
+            -4,
+            -8,
+            -8,
+            -4,
+            10
+          ]
+        },
+        {
+          "step": 607,
+          "pc": "0x1010",
+          "actual": 1,
+          "prediction": 1,
+          "score": 19,
+          "index": 20,
+          "history": [
+            -1,
+            -1,
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            1
+          ],
+          "weights": [
+            3,
+            -13,
+            -3,
+            5,
+            -9,
+            -3,
+            9,
+            1,
+            3
+          ]
+        }
+      ],
+      "per_pc": {
+        "0x1020": {
+          "count": 610,
+          "misses": 0
+        },
+        "0x1000": {
+          "count": 610,
+          "misses": 310
+        },
+        "0x1004": {
+          "count": 610,
+          "misses": 318
+        },
+        "0x1008": {
+          "count": 610,
+          "misses": 300
+        },
+        "0x100c": {
+          "count": 610,
+          "misses": 306
+        },
+        "0x1010": {
+          "count": 610,
+          "misses": 312
+        },
+        "0x1014": {
+          "count": 610,
+          "misses": 325
+        },
+        "0x1018": {
+          "count": 609,
+          "misses": 300
+        },
+        "0x101c": {
+          "count": 609,
+          "misses": 305
+        }
+      },
+      "final_model": {
+        "format_version": 1,
+        "history_length": 8,
+        "weights": [
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            -5,
+            3,
+            -1,
+            -9,
+            -17,
+            -5,
+            -1,
+            -3,
+            -13
+          ],
+          [
+            4,
+            -18,
+            2,
+            2,
+            0,
+            8,
+            -4,
+            -10,
+            -6
+          ],
+          [
+            4,
+            -2,
+            4,
+            -10,
+            -2,
+            -6,
+            -4,
+            -8,
+            6
+          ],
+          [
+            -12,
+            -6,
+            0,
+            -12,
+            -4,
+            -4,
+            -10,
+            -4,
+            -4
+          ],
+          [
+            1,
+            -5,
+            7,
+            1,
+            11,
+            3,
+            3,
+            -5,
+            7
+          ],
+          [
+            5,
+            -1,
+            -9,
+            -7,
+            -3,
+            -3,
+            7,
+            -3,
+            -9
+          ],
+          [
+            4,
+            6,
+            -6,
+            20,
+            0,
+            -8,
+            4,
+            -6,
+            0
+          ],
+          [
+            8,
+            10,
+            -10,
+            4,
+            8,
+            10,
+            -6,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            -2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            40
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "history": [
+          -1,
+          1,
+          1,
+          1,
+          1,
+          -1,
+          -1,
+          1
+        ],
+        "threshold": 29,
+        "weight_bits": 8,
+        "note": "Post-trace online-trained snapshot, not used to initialize evaluation."
+      }
+    }
+  ]
+}

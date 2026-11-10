@@ -7,6 +7,7 @@ from .experiment import ROOT, demo
 from .workloads import WORKLOADS
 
 class Handler(SimpleHTTPRequestHandler):
+    timeout=5  # Bound time spent waiting for incomplete local requests.
     def __init__(self,*args,**kwargs): super().__init__(*args,directory=str(ROOT/'web'),**kwargs)
     def send_json(self,code,value):
         payload=json.dumps(value,allow_nan=False).encode()
@@ -26,6 +27,7 @@ class Handler(SimpleHTTPRequestHandler):
             args=json.loads(self.rfile.read(length))
             if not isinstance(args,dict) or set(args)-{'workload','seed','budget','history'}:raise ValueError('unsupported request fields')
             result=demo(**args)
+        except TimeoutError:return self.send_json(408,{'error':'request body timed out'})
         except (ValueError,TypeError) as exc:return self.send_json(400,{'error':str(exc)})
         self.send_json(200,result)
 

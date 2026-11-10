@@ -8,6 +8,16 @@ try {
  await page.goto(process.env.BRANCHSCOPE_URL||'http://127.0.0.1:8765');
  await page.waitForFunction(()=>document.querySelector('#status').textContent.startsWith('Complete'));
  assert.equal(await page.locator('.metric').count(),4);
+ let releaseRequest;const pendingRequest=new Promise(resolve=>{releaseRequest=resolve;});
+ await page.route('**/api/run',async route=>{await pendingRequest;await route.continue();});
+ await page.getByRole('button',{name:'RUN TRACE'}).click();
+ assert(await page.locator('#workload').isDisabled());
+ assert(await page.locator('#seed').isDisabled());
+ assert(await page.locator('#budget').isDisabled());
+ assert(await page.locator('#history').isDisabled());
+ releaseRequest();
+ await page.waitForFunction(()=>!document.querySelector('#run').disabled);
+ await page.unroute('**/api/run');
  assert.equal(await page.locator('#trace tr').count(),16);
  const before=await page.locator('#branch-info').textContent();
  await page.locator('#step').fill('12');await page.locator('#step').dispatchEvent('input');

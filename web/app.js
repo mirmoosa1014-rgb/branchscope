@@ -22,10 +22,10 @@ function inspect(){if(!data)return;const e=data.results[3].events[Number($('step
  contributions.forEach((v,i)=>{const h=Math.abs(v)/max*90;const xx=40+i*width;body+=`<rect x="${xx}" y="${v>=0?145-h:145}" width="${Math.max(2,width-4)}" height="${Math.max(1,h)}" fill="${v>=0?colors.perceptron:colors.gshare}"><title>${i===0?'Bias':'History lag '+i}: ${v}</title></rect>`;if(contributions.length<20||i%4===0)body+=text(xx,260,i===0?'b':i,undefined,11);});
  body+=text(38,25,'SIGNED CONTRIBUTIONS · bias + weight × history');body+=text(38,285,'b = bias; 1 = most recent resolved branch');$('weights').innerHTML=svg(body,680,310,'Perceptron signed contributions before resolving branch '+e.step);
 }
-$('controls').addEventListener('submit',async event=>{event.preventDefault();$('run').disabled=true;$('status').textContent='Simulating identical traces and training online…';
+$('controls').addEventListener('submit',async event=>{event.preventDefault();$('run').disabled=true;document.querySelectorAll('#controls input,#controls select').forEach(control=>control.disabled=true);$('status').textContent='Simulating identical traces and training online…';
  try{const response=await fetch('/api/run',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({workload:$('workload').value,budget:Number($('budget').value),history:Number($('history').value),seed:Number($('seed').value)})});const result=await response.json();if(!response.ok)throw Error(result.error);data=result;render();$('status').textContent=`Complete · seed ${data.seed} · ${data.count-data.warmup} scored branches per predictor`;}
  catch(error){$('status').textContent='Run failed: '+error.message;}
- finally{$('run').disabled=false;}
+ finally{$('run').disabled=false;document.querySelectorAll('#controls input,#controls select').forEach(control=>control.disabled=false);}
 });
 $('step').addEventListener('input',inspect);
 $('download').addEventListener('click',()=>{if(!data)return;const url=URL.createObjectURL(new Blob([JSON.stringify(data,null,2)],{type:'application/json'}));const a=document.createElement('a');a.href=url;a.download=`branchscope-${data.workload}-${data.seed}.json`;a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);});

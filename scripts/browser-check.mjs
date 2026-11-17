@@ -15,10 +15,16 @@ try {
  assert(await page.locator('#seed').isDisabled());
  assert(await page.locator('#budget').isDisabled());
  assert(await page.locator('#history').isDisabled());
+ assert(await page.locator('#download').isDisabled());
  releaseRequest();
  await page.waitForFunction(()=>!document.querySelector('#run').disabled);
  await page.unroute('**/api/run');
  assert.equal(await page.locator('#trace tr').count(),16);
+ await page.route('**/api/run',route=>route.fulfill({status:400,contentType:'application/json',body:JSON.stringify({error:'controlled failure'})}));
+ await page.getByRole('button',{name:'RUN TRACE'}).click();
+ await page.waitForFunction(()=>document.querySelector('#status').textContent.startsWith('Run failed:'));
+ assert(await page.locator('#download').isDisabled());
+ await page.unroute('**/api/run');
  const before=await page.locator('#branch-info').textContent();
  await page.locator('#step').fill('12');await page.locator('#step').dispatchEvent('input');
  assert.notEqual(await page.locator('#branch-info').textContent(),before);
